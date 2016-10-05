@@ -11,7 +11,7 @@
     <packaging>pom</packaging>
 
     <modules>
-
+        <module>utility</module>
     </modules>
 
     <dependencies>
@@ -20,7 +20,11 @@
 
     <dependencyManagement>
         <dependencies>
-
+            <dependency>
+            <groupId>l2jwalker</groupId>
+            <artifactId>utility</artifactId>
+            <version>1.0</version>
+        </dependency>
         </dependencies>
     </dependencyManagement>
 
