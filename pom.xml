@@ -11,6 +11,7 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>encrypt</module>
         <module>utility</module>
     </modules>
 
@@ -21,10 +22,15 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-            <groupId>l2jwalker</groupId>
-            <artifactId>utility</artifactId>
-            <version>1.0</version>
-        </dependency>
+                <groupId>l2jwalker</groupId>
+                <artifactId>encrypt</artifactId>
+                <version>1.0</version>
+            </dependency>
+            <dependency>
+                <groupId>l2jwalker</groupId>
+                <artifactId>utility</artifactId>
+                <version>1.0</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
