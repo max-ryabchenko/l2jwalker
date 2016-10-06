@@ -1,0 +1,3 @@
+[
+    {f: 'U', n: 'testUnicodeString'}
+]

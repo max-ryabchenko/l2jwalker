@@ -1,0 +1,3 @@
+[
+    {f: 'f', n: 'testDouble'}
+]

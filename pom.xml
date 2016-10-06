@@ -12,6 +12,7 @@
 
     <modules>
         <module>encrypt</module>
+        <module>packet-io</module>
         <module>utility</module>
     </modules>
 
@@ -24,6 +25,11 @@
             <dependency>
                 <groupId>l2jwalker</groupId>
                 <artifactId>encrypt</artifactId>
+                <version>1.0</version>
+            </dependency>
+            <dependency>
+                <groupId>l2jwalker</groupId>
+                <artifactId>packet-io</artifactId>
                 <version>1.0</version>
             </dependency>
             <dependency>

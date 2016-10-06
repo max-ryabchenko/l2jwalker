@@ -1,0 +1,20 @@
+[
+  {f: 'U', n: 'testString1'},
+  {f: 'C', n: 'testByte1'},
+  {f: 'C', n: 'testByte2'},
+  {f: 'w', n: 'testShort2'},
+  {f: 'U', n: 'testString2'},
+  {f: 'f', n: 'testDouble1'},
+  {format: 'D', name: 'testInt1'},
+  {f: 'w', n: 'testShort1'},
+  {f: 'Q', n: 'testLong1'},
+  {f: 'f', n: 'testDouble2'},
+  {format: 'D', name: 'testInt2'},
+  {f: 'C', n: 'testByte3'},
+  {f: 'Q', n: 'testLong2'},
+  {f: 'f', n: 'testDouble3'},
+  {format: 'D', name: 'testInt3'},
+  {f: 'Q', n: 'testLong3'},
+  {f: 'w', n: 'testShort3'},
+  {f: 'U', n: 'testString3'}
+]
