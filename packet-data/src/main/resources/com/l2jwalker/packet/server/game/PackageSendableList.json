@@ -1,0 +1,9 @@
+{
+  "name": "PackageSendableList",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "C3"
+  },
+  "body": []
+}

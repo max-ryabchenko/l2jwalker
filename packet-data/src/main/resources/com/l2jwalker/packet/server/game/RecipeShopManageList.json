@@ -1,0 +1,10 @@
+{
+  "name": "RecipeShopManageList",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "D8",
+    "Freya": "DE"
+  },
+  "body": []
+}

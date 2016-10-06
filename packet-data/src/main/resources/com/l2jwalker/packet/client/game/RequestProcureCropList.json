@@ -1,0 +1,10 @@
+{
+  "name": "RequestProcureCropList",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 09",
+    "Freya": "D0 02"
+  },
+  "body": []
+}

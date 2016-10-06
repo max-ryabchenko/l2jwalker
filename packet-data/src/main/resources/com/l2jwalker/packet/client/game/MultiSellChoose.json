@@ -1,0 +1,10 @@
+{
+  "name": "MultiSellChoose",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "A7",
+    "Freya": "B0"
+  },
+  "body": []
+}

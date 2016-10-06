@@ -1,0 +1,10 @@
+{
+  "name": "RequestGGAuth",
+  "direction": "Client",
+  "server": "Login",
+  "code": {
+    "Interlude": "07",
+    "Freya": "07"
+  },
+  "body": []
+}

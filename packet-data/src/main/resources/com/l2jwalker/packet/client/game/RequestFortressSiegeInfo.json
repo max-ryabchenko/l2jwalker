@@ -1,0 +1,9 @@
+{
+  "name": "RequestFortressSiegeInfo",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 3F"
+  },
+  "body": []
+}

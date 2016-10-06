@@ -1,0 +1,10 @@
+{
+  "name": "RequestPCCafeCouponUse",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 20",
+    "Freya": "D0 19"
+  },
+  "body": []
+}

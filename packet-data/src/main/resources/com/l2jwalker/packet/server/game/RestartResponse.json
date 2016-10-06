@@ -1,0 +1,10 @@
+{
+  "name": "RestartResponse",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "5F",
+    "Freya": "71"
+  },
+  "body": []
+}

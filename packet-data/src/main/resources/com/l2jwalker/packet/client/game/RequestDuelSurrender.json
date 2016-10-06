@@ -1,0 +1,10 @@
+{
+  "name": "RequestDuelSurrender",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 30",
+    "Freya": "D0 45"
+  },
+  "body": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ExShowSeedMapInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE A1"
+  },
+  "body": []
+}

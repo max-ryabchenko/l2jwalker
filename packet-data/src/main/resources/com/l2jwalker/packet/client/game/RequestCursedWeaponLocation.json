@@ -1,0 +1,10 @@
+{
+  "name": "RequestCursedWeaponLocation",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 23",
+    "Freya": "D0 2B"
+  },
+  "body": []
+}

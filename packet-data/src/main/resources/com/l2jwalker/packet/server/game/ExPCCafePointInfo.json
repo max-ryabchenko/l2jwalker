@@ -1,0 +1,10 @@
+{
+  "name": "ExPCCafePointInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FE 31",
+    "Freya": "FE 32"
+  },
+  "body": []
+}

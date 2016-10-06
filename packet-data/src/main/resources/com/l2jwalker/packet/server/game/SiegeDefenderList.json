@@ -1,0 +1,10 @@
+{
+  "name": "SiegeDefenderList",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "CB",
+    "Freya": "CB"
+  },
+  "body": []
+}

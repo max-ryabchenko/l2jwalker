@@ -1,0 +1,10 @@
+{
+  "name": "UseItem",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "14",
+    "Freya": "19"
+  },
+  "body": []
+}

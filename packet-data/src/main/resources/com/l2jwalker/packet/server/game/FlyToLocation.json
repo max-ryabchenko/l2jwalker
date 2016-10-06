@@ -1,0 +1,9 @@
+{
+  "name": "FlyToLocation",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "D4"
+  },
+  "body": []
+}

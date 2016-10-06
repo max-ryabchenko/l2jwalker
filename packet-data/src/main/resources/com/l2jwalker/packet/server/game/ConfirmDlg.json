@@ -1,0 +1,10 @@
+{
+  "name": "ConfirmDlg",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "ED",
+    "Freya": "F3"
+  },
+  "body": []
+}

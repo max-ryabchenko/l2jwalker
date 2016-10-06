@@ -1,0 +1,9 @@
+{
+  "name": "RequestSkillCoolTime",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "A6"
+  },
+  "body": []
+}

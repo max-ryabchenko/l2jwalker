@@ -1,0 +1,9 @@
+{
+  "name": "ExShowOwnthingPos",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 93"
+  },
+  "body": []
+}

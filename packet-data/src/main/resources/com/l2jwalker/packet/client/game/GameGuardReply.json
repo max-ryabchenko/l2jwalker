@@ -1,0 +1,10 @@
+{
+  "name": "GameGuardReply",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "CA",
+    "Freya": "CB"
+  },
+  "body": []
+}

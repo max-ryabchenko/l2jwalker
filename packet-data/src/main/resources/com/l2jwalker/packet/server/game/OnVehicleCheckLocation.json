@@ -1,0 +1,9 @@
+{
+  "name": "OnVehicleCheckLocation",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "5B"
+  },
+  "body": []
+}

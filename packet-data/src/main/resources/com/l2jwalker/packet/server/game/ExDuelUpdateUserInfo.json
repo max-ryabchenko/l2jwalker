@@ -1,0 +1,10 @@
+{
+  "name": "ExDuelUpdateUserInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FE 4F",
+    "Freya": "FE 50"
+  },
+  "body": []
+}

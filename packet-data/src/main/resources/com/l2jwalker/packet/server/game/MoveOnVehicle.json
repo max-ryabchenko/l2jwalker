@@ -1,0 +1,9 @@
+{
+  "name": "MoveOnVehicle",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "71"
+  },
+  "body": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "NpcSay",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "30"
+  },
+  "body": []
+}

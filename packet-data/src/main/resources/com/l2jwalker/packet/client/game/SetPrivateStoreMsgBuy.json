@@ -1,0 +1,10 @@
+{
+  "name": "SetPrivateStoreMsgBuy",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "94",
+    "Freya": "9D"
+  },
+  "body": []
+}

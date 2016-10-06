@@ -1,0 +1,10 @@
+{
+  "name": "RequestPackageSendableItemList",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "9E",
+    "Freya": "A7"
+  },
+  "body": []
+}

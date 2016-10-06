@@ -1,0 +1,9 @@
+{
+  "name": "ExPartyPetWindowUpdate",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 19"
+  },
+  "body": []
+}

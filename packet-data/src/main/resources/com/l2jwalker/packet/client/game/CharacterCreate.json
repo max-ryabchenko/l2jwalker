@@ -1,0 +1,10 @@
+{
+  "name": "CharacterCreate",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "0B",
+    "Freya": "0C"
+  },
+  "body": []
+}

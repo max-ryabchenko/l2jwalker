@@ -1,0 +1,10 @@
+{
+  "name": "SendMacroList",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "E7",
+    "Freya": "E8"
+  },
+  "body": []
+}

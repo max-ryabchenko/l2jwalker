@@ -1,0 +1,10 @@
+{
+  "name": "RequestReplyStartPledgeWar",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "4E",
+    "Freya": "04"
+  },
+  "body": []
+}

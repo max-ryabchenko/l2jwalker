@@ -1,0 +1,10 @@
+{
+  "name": "RequestSetSeed",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 0A",
+    "Freya": "D0 03"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "RequestServerLogin",
+  "direction": "Client",
+  "server": "Login",
+  "code": {
+    "Interlude": "02",
+    "Freya": "02"
+  },
+  "body": []
+}

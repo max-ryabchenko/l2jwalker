@@ -1,0 +1,9 @@
+{
+  "name": "RequestSEKCustom",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "5A"
+  },
+  "body": []
+}

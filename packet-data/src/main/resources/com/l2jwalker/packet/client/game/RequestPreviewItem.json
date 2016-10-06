@@ -1,0 +1,9 @@
+{
+  "name": "RequestPreviewItem",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "C7"
+  },
+  "body": []
+}

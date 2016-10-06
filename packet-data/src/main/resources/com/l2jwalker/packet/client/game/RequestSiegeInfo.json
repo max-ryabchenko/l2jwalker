@@ -1,0 +1,9 @@
+{
+  "name": "RequestSiegeInfo",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "AA"
+  },
+  "body": []
+}

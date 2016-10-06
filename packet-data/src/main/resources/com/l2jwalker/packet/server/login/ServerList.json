@@ -1,0 +1,10 @@
+{
+  "name": "ServerList",
+  "direction": "Server",
+  "server": "Login",
+  "code": {
+    "Interlude": "04",
+    "Freya": "04"
+  },
+  "body": []
+}

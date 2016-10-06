@@ -1,0 +1,10 @@
+{
+  "name": "StopRotation",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "63",
+    "Freya": "61"
+  },
+  "body": []
+}

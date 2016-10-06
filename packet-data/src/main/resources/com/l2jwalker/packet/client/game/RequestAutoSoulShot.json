@@ -1,0 +1,10 @@
+{
+  "name": "RequestAutoSoulShot",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 05",
+    "Freya": "D0 0D"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "RequestFriendInvite",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "5E",
+    "Freya": "77"
+  },
+  "body": []
+}

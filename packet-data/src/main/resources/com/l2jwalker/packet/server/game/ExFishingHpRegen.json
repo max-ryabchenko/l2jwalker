@@ -1,0 +1,10 @@
+{
+  "name": "ExFishingHpRegen",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FE 16",
+    "Freya": "FE 28"
+  },
+  "body": []
+}

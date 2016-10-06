@@ -1,0 +1,10 @@
+{
+  "name": "ValidateLocationInVehicle",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "73",
+    "Freya": "80"
+  },
+  "body": []
+}

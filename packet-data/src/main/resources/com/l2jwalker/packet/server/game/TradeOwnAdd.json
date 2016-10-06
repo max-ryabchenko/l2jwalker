@@ -1,0 +1,10 @@
+{
+  "name": "TradeOwnAdd",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "20",
+    "Freya": "1A"
+  },
+  "body": []
+}

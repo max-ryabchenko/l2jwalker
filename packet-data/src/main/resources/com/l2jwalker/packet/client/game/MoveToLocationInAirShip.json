@@ -1,0 +1,9 @@
+{
+  "name": "MoveToLocationInAirShip",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 20"
+  },
+  "body": []
+}

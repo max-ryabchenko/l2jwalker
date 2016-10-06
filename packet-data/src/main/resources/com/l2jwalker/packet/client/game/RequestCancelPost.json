@@ -1,0 +1,9 @@
+{
+  "name": "RequestCancelPost",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 6F"
+  },
+  "body": []
+}

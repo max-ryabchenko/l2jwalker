@@ -1,0 +1,10 @@
+{
+  "name": "RequestManorList",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 08",
+    "Freya": "D0 01"
+  },
+  "body": []
+}

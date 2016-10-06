@@ -1,0 +1,9 @@
+{
+  "name": "RequestExRemoveItemAttribute",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 23"
+  },
+  "body": []
+}

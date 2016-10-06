@@ -1,0 +1,9 @@
+{
+  "name": "PartyMatchList",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "96"
+  },
+  "body": []
+}

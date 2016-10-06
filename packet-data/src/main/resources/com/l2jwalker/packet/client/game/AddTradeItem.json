@@ -1,0 +1,10 @@
+{
+  "name": "AddTradeItem",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "16",
+    "Freya": "1B"
+  },
+  "body": []
+}

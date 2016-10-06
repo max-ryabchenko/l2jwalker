@@ -1,0 +1,9 @@
+{
+  "name": "RequestSendMsnChatLog",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "6D"
+  },
+  "body": []
+}

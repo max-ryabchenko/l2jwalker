@@ -1,0 +1,9 @@
+{
+  "name": "RequestBRBuyProduct",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 82"
+  },
+  "body": []
+}

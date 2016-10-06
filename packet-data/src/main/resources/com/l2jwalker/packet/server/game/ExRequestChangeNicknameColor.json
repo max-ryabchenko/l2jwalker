@@ -1,0 +1,9 @@
+{
+  "name": "ExRequestChangeNicknameColor",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 83"
+  },
+  "body": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "BrLectureMark",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 86"
+  },
+  "body": []
+}

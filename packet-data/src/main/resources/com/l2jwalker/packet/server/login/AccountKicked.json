@@ -1,0 +1,9 @@
+{
+  "name": "AccountKicked",
+  "direction": "Server",
+  "server": "Login",
+  "code": {
+    "Interlude": "02"
+  },
+  "body": []
+}

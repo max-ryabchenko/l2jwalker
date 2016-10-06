@@ -1,0 +1,9 @@
+{
+  "name": "BrEventRankerList",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 7B"
+  },
+  "body": []
+}

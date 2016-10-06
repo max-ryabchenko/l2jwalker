@@ -1,0 +1,10 @@
+{
+  "name": "TutorialShowHtml",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "A0",
+    "Freya": "A6"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "RequestPledgeSetMemberPowerGrade",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 1C",
+    "Freya": "D0 15"
+  },
+  "body": []
+}

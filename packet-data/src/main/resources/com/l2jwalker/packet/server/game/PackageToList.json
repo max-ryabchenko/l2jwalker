@@ -1,0 +1,9 @@
+{
+  "name": "PackageToList",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "C2"
+  },
+  "body": []
+}

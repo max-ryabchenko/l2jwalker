@@ -1,0 +1,10 @@
+{
+  "name": "RequestExMPCCShowPartyMembersInfo",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 26",
+    "Freya": "D0 2D"
+  },
+  "body": []
+}

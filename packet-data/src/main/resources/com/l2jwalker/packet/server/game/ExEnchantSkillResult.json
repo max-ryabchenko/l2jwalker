@@ -1,0 +1,9 @@
+{
+  "name": "ExEnchantSkillResult",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE A7"
+  },
+  "body": []
+}

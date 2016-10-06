@@ -1,0 +1,10 @@
+{
+  "name": "RequestGetBossRecord",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 18",
+    "Freya": "D0 40"
+  },
+  "body": []
+}

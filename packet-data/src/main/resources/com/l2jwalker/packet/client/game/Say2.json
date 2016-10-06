@@ -1,0 +1,10 @@
+{
+  "name": "Say2",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "38",
+    "Freya": "49"
+  },
+  "body": []
+}

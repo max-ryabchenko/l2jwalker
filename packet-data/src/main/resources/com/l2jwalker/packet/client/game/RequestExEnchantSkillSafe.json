@@ -1,0 +1,9 @@
+{
+  "name": "RequestExEnchantSkillSafe",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 32"
+  },
+  "body": []
+}

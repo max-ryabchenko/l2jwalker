@@ -1,0 +1,10 @@
+{
+  "name": "RequestBlock",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "A0",
+    "Freya": "A9"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "MonRaceInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "DD",
+    "Freya": "E3"
+  },
+  "body": []
+}

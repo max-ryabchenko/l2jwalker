@@ -1,0 +1,9 @@
+{
+  "name": "AnswerCoupleAction",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 7A"
+  },
+  "body": []
+}

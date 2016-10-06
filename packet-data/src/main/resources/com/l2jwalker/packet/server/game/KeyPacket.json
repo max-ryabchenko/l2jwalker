@@ -1,0 +1,10 @@
+{
+  "name": "KeyPacket",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "00",
+    "Freya": "2E"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "RequestItemList",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "0F",
+    "Freya": "14"
+  },
+  "body": []
+}

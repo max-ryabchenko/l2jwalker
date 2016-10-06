@@ -1,0 +1,10 @@
+{
+  "name": "ObservationMode",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "DF",
+    "Freya": "EB"
+  },
+  "body": []
+}

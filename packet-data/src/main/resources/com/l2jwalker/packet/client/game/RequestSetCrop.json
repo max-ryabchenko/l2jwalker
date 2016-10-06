@@ -1,0 +1,10 @@
+{
+  "name": "RequestSetCrop",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 0B",
+    "Freya": "D0 04"
+  },
+  "body": []
+}

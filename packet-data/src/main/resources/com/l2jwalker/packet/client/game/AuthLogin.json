@@ -1,0 +1,10 @@
+{
+  "name": "AuthLogin",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "08",
+    "Freya": "2B"
+  },
+  "body": []
+}

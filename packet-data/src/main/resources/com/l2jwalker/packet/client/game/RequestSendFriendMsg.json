@@ -1,0 +1,10 @@
+{
+  "name": "RequestSendFriendMsg",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "CC",
+    "Freya": "6B"
+  },
+  "body": []
+}

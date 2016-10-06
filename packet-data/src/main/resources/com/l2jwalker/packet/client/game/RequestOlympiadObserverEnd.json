@@ -1,0 +1,10 @@
+{
+  "name": "RequestOlympiadObserverEnd",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 12",
+    "Freya": "D0 29"
+  },
+  "body": []
+}

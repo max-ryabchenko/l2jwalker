@@ -1,0 +1,9 @@
+{
+  "name": "ExPutItemResultForVariationCancel",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 57"
+  },
+  "body": []
+}

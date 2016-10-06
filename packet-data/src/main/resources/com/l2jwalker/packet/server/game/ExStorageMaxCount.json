@@ -1,0 +1,10 @@
+{
+  "name": "ExStorageMaxCount",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FE 2E",
+    "Freya": "FE 2F"
+  },
+  "body": []
+}

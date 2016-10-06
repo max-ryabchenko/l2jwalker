@@ -1,0 +1,9 @@
+{
+  "name": "MagicEffectIcons",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "7F"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "PlayFail",
+  "direction": "Server",
+  "server": "Login",
+  "code": {
+    "Interlude": "06",
+    "Freya": "06"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ShowBoard",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "6E",
+    "Freya": "7B"
+  },
+  "body": []
+}

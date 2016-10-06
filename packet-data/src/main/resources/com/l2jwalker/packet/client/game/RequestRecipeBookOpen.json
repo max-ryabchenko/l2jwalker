@@ -1,0 +1,10 @@
+{
+  "name": "RequestRecipeBookOpen",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "AC",
+    "Freya": "B5"
+  },
+  "body": []
+}

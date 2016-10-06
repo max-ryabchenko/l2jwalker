@@ -1,0 +1,9 @@
+{
+  "name": "RequestExEnchantItemAttribute",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 35"
+  },
+  "body": []
+}

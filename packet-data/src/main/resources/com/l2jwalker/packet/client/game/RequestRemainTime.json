@@ -1,0 +1,9 @@
+{
+  "name": "RequestRemainTime",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "B2"
+  },
+  "body": []
+}

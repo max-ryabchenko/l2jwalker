@@ -1,0 +1,9 @@
+{
+  "name": "ExUISetting",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 70"
+  },
+  "body": []
+}

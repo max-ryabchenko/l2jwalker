@@ -1,0 +1,9 @@
+{
+  "name": "ExReplyReceivedPost",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE AB"
+  },
+  "body": []
+}

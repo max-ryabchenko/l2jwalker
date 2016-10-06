@@ -1,0 +1,10 @@
+{
+  "name": "PartySpelled",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "EE",
+    "Freya": "F4"
+  },
+  "body": []
+}

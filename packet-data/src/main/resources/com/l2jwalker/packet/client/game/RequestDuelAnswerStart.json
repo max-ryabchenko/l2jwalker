@@ -1,0 +1,10 @@
+{
+  "name": "RequestDuelAnswerStart",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 28",
+    "Freya": "D0 1C"
+  },
+  "body": []
+}

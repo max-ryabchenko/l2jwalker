@@ -1,0 +1,9 @@
+{
+  "name": "TradeOtherDone",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "82"
+  },
+  "body": []
+}

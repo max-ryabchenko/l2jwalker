@@ -1,0 +1,9 @@
+{
+  "name": "ExGetBookMarkInfoPacket",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 84"
+  },
+  "body": []
+}

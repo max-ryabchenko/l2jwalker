@@ -1,0 +1,10 @@
+{
+  "name": "PledgeInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "83",
+    "Freya": "89"
+  },
+  "body": []
+}

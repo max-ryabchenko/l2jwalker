@@ -1,0 +1,10 @@
+{
+  "name": "SendWareHouseDepositList",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "31",
+    "Freya": "3B"
+  },
+  "body": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "HennaRemoveList",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "E6"
+  },
+  "body": []
+}

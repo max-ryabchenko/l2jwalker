@@ -1,0 +1,9 @@
+{
+  "name": "AgitDecoInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FD"
+  },
+  "body": []
+}

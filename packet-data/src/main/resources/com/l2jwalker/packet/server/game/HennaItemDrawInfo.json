@@ -1,0 +1,9 @@
+{
+  "name": "HennaItemDrawInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "E4"
+  },
+  "body": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "AskMembership",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 7C"
+  },
+  "body": []
+}

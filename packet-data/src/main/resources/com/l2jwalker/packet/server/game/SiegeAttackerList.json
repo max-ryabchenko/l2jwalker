@@ -1,0 +1,10 @@
+{
+  "name": "SiegeAttackerList",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "CA",
+    "Freya": "CA"
+  },
+  "body": []
+}

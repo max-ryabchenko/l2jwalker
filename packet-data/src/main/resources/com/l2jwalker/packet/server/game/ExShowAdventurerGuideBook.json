@@ -1,0 +1,10 @@
+{
+  "name": "ExShowAdventurerGuideBook",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FE 37",
+    "Freya": "FE 38"
+  },
+  "body": []
+}

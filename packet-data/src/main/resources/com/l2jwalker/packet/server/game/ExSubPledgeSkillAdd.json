@@ -1,0 +1,9 @@
+{
+  "name": "ExSubPledgeSkillAdd",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 76"
+  },
+  "body": []
+}

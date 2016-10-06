@@ -1,0 +1,9 @@
+{
+  "name": "ExDominionWarStart",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE A3"
+  },
+  "body": []
+}

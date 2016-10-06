@@ -1,0 +1,9 @@
+{
+  "name": "ExCubeGameExtendedChangePoints",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 98 00"
+  },
+  "body": []
+}

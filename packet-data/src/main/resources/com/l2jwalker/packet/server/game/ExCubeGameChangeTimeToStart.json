@@ -1,0 +1,9 @@
+{
+  "name": "ExCubeGameChangeTimeToStart",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 97 03"
+  },
+  "body": []
+}

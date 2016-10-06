@@ -1,0 +1,9 @@
+{
+  "name": "L2FriendSay",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "78"
+  },
+  "body": []
+}

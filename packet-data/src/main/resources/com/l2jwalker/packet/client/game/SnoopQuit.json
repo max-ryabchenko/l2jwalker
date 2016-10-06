@@ -1,0 +1,10 @@
+{
+  "name": "SnoopQuit",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "AB",
+    "Freya": "B4"
+  },
+  "body": []
+}

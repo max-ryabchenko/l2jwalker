@@ -1,0 +1,10 @@
+{
+  "name": "ExDuelEnd",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FE 4E",
+    "Freya": "FE 4F"
+  },
+  "body": []
+}

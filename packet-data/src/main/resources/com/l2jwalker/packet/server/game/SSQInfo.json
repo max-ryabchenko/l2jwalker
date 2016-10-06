@@ -1,0 +1,9 @@
+{
+  "name": "SSQInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "73"
+  },
+  "body": []
+}

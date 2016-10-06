@@ -1,0 +1,9 @@
+{
+  "name": "RequestDeleteSentPost",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 6D"
+  },
+  "body": []
+}

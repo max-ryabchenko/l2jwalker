@@ -1,0 +1,9 @@
+{
+  "name": "RequestJump",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 53"
+  },
+  "body": []
+}

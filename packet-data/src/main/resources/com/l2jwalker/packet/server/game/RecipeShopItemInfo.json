@@ -1,0 +1,10 @@
+{
+  "name": "RecipeShopItemInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "DA",
+    "Freya": "E0"
+  },
+  "body": []
+}

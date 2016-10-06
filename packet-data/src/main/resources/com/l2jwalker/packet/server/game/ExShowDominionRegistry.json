@@ -1,0 +1,9 @@
+{
+  "name": "ExShowDominionRegistry",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 90"
+  },
+  "body": []
+}

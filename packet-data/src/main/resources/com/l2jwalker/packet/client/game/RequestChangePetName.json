@@ -1,0 +1,10 @@
+{
+  "name": "RequestChangePetName",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "89",
+    "Freya": "93"
+  },
+  "body": []
+}

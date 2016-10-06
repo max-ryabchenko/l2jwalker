@@ -1,0 +1,9 @@
+{
+  "name": "RequestHennaRemoveList",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "70"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "RequestPledgeWarList",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 1E",
+    "Freya": "D0 17"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "NormalCamera",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "C8",
+    "Freya": "D7"
+  },
+  "body": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ExGetOnAirShip",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 63"
+  },
+  "body": []
+}

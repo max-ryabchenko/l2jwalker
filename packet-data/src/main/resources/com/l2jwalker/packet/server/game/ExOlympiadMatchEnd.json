@@ -1,0 +1,9 @@
+{
+  "name": "ExOlympiadMatchEnd",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 2D"
+  },
+  "body": []
+}

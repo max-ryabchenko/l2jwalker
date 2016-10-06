@@ -1,0 +1,10 @@
+{
+  "name": "DoorStatusUpdate",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "4D",
+    "Freya": "4D"
+  },
+  "body": []
+}

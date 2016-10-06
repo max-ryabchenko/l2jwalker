@@ -1,0 +1,9 @@
+{
+  "name": "NotifyStartMiniGame",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 56"
+  },
+  "body": []
+}

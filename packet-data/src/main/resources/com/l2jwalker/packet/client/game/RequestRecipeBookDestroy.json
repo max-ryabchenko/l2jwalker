@@ -1,0 +1,10 @@
+{
+  "name": "RequestRecipeBookDestroy",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "AD",
+    "Freya": "B6"
+  },
+  "body": []
+}

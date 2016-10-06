@@ -1,0 +1,10 @@
+{
+  "name": "SSQStatus",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "F5",
+    "Freya": "FB"
+  },
+  "body": []
+}

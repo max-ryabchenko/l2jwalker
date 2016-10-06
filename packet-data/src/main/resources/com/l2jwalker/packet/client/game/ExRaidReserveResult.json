@@ -1,0 +1,9 @@
+{
+  "name": "ExRaidReserveResult",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 73"
+  },
+  "body": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ExShowAgitInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 16"
+  },
+  "body": []
+}

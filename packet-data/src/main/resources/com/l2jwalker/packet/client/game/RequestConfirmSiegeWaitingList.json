@@ -1,0 +1,10 @@
+{
+  "name": "RequestConfirmSiegeWaitingList",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "A5",
+    "Freya": "AE"
+  },
+  "body": []
+}

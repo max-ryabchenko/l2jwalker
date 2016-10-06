@@ -1,0 +1,9 @@
+{
+  "name": "FriendAddRequest",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "83"
+  },
+  "body": []
+}

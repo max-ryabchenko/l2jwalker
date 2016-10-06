@@ -1,0 +1,10 @@
+{
+  "name": "RequestPledgeSetAcademyMaster",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 19",
+    "Freya": "D0 12"
+  },
+  "body": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ExPartyRoomMember",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 08"
+  },
+  "body": []
+}

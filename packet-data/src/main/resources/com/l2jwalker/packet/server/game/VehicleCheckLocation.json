@@ -1,0 +1,9 @@
+{
+  "name": "VehicleCheckLocation",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "6D"
+  },
+  "body": []
+}

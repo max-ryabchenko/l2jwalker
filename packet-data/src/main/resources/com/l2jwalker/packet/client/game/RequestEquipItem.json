@@ -1,0 +1,9 @@
+{
+  "name": "RequestEquipItem",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "15"
+  },
+  "body": []
+}

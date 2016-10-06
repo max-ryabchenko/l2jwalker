@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet author="max.ryabchenko" id="1">
+        <preConditions onFail="MARK_RAN">
+            <not>
+                <tableExists tableName="packet"/>
+            </not>
+        </preConditions>
+        <comment>Create packet data table</comment>
+        <sql>
+            <![CDATA[
+            create table packet
+            (
+                version varchar not null,
+                packet_direction varchar not null,
+                server_type varchar not null,
+                name varchar not null,
+                code blob not null,
+                body varchar not null,
+                primary key (version, packet_direction, server_type, name)
+            );
+            ]]>
+        </sql>
+    </changeSet>
+    <changeSet author="max.ryabchenko" id="2">
+        <preConditions onFail="MARK_RAN">
+            <tableExists tableName="packet"/>
+            <sqlCheck expectedResult="0"><![CDATA[select count(*) from packet;]]></sqlCheck>
+        </preConditions>
+        <comment>Fill packet data</comment>
+        <customChange class="com.l2jwalker.packet.PacketLoad">
+            <param name="path" value="com/l2jwalker/packet"/>
+            <param name="insertSql">
+                <![CDATA[
+                insert into packet
+                (
+                    version,
+                    packet_direction,
+                    server_type,
+                    name,
+                    code,
+                    body
+                )
+                values
+                (
+                    ':version',
+                    ':packetDirection',
+                    ':serverType',
+                    ':name',
+                    x':code',
+                    ':body'
+                );
+                ]]>
+            </param>
+        </customChange>
+    </changeSet>
+
+</databaseChangeLog>

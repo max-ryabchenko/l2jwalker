@@ -1,0 +1,9 @@
+{
+  "name": "SendTimeCheckPacket",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "A0"
+  },
+  "body": []
+}

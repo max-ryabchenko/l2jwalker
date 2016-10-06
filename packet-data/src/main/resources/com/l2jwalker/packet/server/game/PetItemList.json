@@ -1,0 +1,10 @@
+{
+  "name": "PetItemList",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "B2",
+    "Freya": "B3"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "RequestWriteHeroWords",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 0C",
+    "Freya": "D0 05"
+  },
+  "body": []
+}

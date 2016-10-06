@@ -1,0 +1,10 @@
+{
+  "name": "ExFishingStart",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FE 13",
+    "Freya": "FE 1E"
+  },
+  "body": []
+}

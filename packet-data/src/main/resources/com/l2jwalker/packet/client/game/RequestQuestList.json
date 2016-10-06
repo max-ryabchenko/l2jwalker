@@ -1,0 +1,10 @@
+{
+  "name": "RequestQuestList",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "63",
+    "Freya": "62"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "RequestJoinParty",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "29",
+    "Freya": "42"
+  },
+  "body": []
+}

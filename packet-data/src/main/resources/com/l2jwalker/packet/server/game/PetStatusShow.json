@@ -1,0 +1,10 @@
+{
+  "name": "PetStatusShow",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "B0",
+    "Freya": "B1"
+  },
+  "body": []
+}

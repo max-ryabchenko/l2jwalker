@@ -1,0 +1,10 @@
+{
+  "name": "ExAutoSoulShot",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FE 12",
+    "Freya": "FE 0C"
+  },
+  "body": []
+}

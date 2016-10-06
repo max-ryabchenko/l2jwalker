@@ -1,0 +1,10 @@
+{
+  "name": "EnchantResult",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "81",
+    "Freya": "87"
+  },
+  "body": []
+}

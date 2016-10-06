@@ -1,0 +1,9 @@
+{
+  "name": "ExVoteSystemInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE C8"
+  },
+  "body": []
+}

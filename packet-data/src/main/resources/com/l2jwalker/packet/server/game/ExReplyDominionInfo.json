@@ -1,0 +1,9 @@
+{
+  "name": "ExReplyDominionInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 92"
+  },
+  "body": []
+}

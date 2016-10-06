@@ -1,0 +1,10 @@
+{
+  "name": "ChangeMoveType",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "2E",
+    "Freya": "28"
+  },
+  "body": []
+}

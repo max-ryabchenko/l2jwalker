@@ -1,0 +1,10 @@
+{
+  "name": "RequestPetitionCancel",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "80",
+    "Freya": "8A"
+  },
+  "body": []
+}

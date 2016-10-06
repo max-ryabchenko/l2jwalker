@@ -1,0 +1,10 @@
+{
+  "name": "AbstractNpcInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "16",
+    "Freya": "0C"
+  },
+  "body": []
+}

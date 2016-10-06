@@ -1,0 +1,10 @@
+{
+  "name": "RequestBuyProcure",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "C3",
+    "Freya": "CF"
+  },
+  "body": []
+}

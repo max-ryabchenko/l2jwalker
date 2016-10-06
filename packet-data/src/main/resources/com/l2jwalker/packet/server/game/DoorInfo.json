@@ -1,0 +1,10 @@
+{
+  "name": "DoorInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "4C",
+    "Freya": "4C"
+  },
+  "body": []
+}

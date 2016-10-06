@@ -1,0 +1,10 @@
+{
+  "name": "PledgeShowMemberListAll",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "53",
+    "Freya": "5A"
+  },
+  "body": []
+}

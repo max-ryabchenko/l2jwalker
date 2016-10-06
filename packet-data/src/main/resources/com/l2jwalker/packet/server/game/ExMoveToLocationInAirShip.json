@@ -1,0 +1,9 @@
+{
+  "name": "ExMoveToLocationInAirShip",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 6D"
+  },
+  "body": []
+}

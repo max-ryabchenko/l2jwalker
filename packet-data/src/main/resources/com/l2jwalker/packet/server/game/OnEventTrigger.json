@@ -1,0 +1,9 @@
+{
+  "name": "OnEventTrigger",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "CF"
+  },
+  "body": []
+}

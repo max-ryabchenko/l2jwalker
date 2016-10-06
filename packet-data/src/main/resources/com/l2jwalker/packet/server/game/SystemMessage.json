@@ -1,0 +1,10 @@
+{
+  "name": "SystemMessage",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "64",
+    "Freya": "62"
+  },
+  "body": []
+}

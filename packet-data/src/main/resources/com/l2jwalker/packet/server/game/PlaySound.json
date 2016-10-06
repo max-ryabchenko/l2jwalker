@@ -1,0 +1,10 @@
+{
+  "name": "PlaySound",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "98",
+    "Freya": "9E"
+  },
+  "body": []
+}

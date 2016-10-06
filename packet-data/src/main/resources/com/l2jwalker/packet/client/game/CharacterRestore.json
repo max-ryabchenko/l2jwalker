@@ -1,0 +1,10 @@
+{
+  "name": "CharacterRestore",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "62",
+    "Freya": "7B"
+  },
+  "body": []
+}

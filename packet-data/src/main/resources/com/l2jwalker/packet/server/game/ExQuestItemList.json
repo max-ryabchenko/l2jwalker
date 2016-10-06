@@ -1,0 +1,9 @@
+{
+  "name": "ExQuestItemList",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE C5"
+  },
+  "body": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ExShowScreenMessage",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 39"
+  },
+  "body": []
+}

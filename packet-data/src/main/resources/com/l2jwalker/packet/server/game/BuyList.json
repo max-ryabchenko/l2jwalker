@@ -1,0 +1,10 @@
+{
+  "name": "BuyList",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "11",
+    "Freya": "FE B7 00"
+  },
+  "body": []
+}

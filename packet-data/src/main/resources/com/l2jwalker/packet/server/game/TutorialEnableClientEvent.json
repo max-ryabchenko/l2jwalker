@@ -1,0 +1,9 @@
+{
+  "name": "TutorialEnableClientEvent",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "A8"
+  },
+  "body": []
+}

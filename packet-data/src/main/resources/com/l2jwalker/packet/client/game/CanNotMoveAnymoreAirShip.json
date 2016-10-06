@@ -1,0 +1,9 @@
+{
+  "name": "CanNotMoveAnymoreAirShip",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 1F"
+  },
+  "body": []
+}

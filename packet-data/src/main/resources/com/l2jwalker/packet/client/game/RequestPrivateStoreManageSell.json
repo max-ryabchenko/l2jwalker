@@ -1,0 +1,10 @@
+{
+  "name": "RequestPrivateStoreManageSell",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "73",
+    "Freya": "30"
+  },
+  "body": []
+}

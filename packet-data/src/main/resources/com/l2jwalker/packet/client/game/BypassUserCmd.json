@@ -1,0 +1,9 @@
+{
+  "name": "BypassUserCmd",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "B3"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "RequestExFishRanking",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 1F",
+    "Freya": "D0 18"
+  },
+  "body": []
+}

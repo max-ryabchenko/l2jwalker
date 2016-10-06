@@ -1,0 +1,9 @@
+{
+  "name": "AbnormalStatusUpdate",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "85"
+  },
+  "body": []
+}

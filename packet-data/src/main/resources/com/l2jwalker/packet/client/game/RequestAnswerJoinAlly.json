@@ -1,0 +1,10 @@
+{
+  "name": "RequestAnswerJoinAlly",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "83",
+    "Freya": "8D"
+  },
+  "body": []
+}

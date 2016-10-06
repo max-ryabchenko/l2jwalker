@@ -1,0 +1,9 @@
+{
+  "name": "LoginFail",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "0A"
+  },
+  "body": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "RequestTutorialClientEvent",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "88"
+  },
+  "body": []
+}

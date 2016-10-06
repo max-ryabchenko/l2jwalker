@@ -1,0 +1,10 @@
+{
+  "name": "RequestOustPledgeMember",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "27",
+    "Freya": "29"
+  },
+  "body": []
+}

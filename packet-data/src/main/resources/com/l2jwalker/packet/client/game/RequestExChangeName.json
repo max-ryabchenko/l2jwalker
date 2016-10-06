@@ -1,0 +1,9 @@
+{
+  "name": "RequestExChangeName",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 3B"
+  },
+  "body": []
+}

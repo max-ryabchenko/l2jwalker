@@ -1,0 +1,9 @@
+{
+  "name": "ExCubeGameAddPlayer",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 97 01"
+  },
+  "body": []
+}

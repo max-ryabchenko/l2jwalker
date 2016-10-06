@@ -1,0 +1,9 @@
+{
+  "name": "NpcInfoPoly",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "16"
+  },
+  "body": []
+}

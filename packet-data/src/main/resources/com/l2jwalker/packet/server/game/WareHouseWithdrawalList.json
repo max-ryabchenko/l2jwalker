@@ -1,0 +1,10 @@
+{
+  "name": "WareHouseWithdrawalList",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "42",
+    "Freya": "42"
+  },
+  "body": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ExBrLoadEventTopRankers",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE BC"
+  },
+  "body": []
+}

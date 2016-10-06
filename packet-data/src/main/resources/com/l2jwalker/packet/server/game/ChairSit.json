@@ -1,0 +1,10 @@
+{
+  "name": "ChairSit",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "E1",
+    "Freya": "ED"
+  },
+  "body": []
+}

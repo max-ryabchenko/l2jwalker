@@ -1,0 +1,10 @@
+{
+  "name": "RequestQuestAbort",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "64",
+    "Freya": "63"
+  },
+  "body": []
+}

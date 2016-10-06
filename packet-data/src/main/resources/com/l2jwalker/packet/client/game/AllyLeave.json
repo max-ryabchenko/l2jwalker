@@ -1,0 +1,10 @@
+{
+  "name": "AllyLeave",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "84",
+    "Freya": "8E"
+  },
+  "body": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "TutorialCloseHtml",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "A9"
+  },
+  "body": []
+}

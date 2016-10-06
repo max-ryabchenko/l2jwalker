@@ -1,0 +1,10 @@
+{
+  "name": "RequestEnchantItem",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "58",
+    "Freya": "5F"
+  },
+  "body": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ServerObjectInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "92"
+  },
+  "body": []
+}

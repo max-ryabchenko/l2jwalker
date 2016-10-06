@@ -1,0 +1,10 @@
+{
+  "name": "AnswerJoinPartyRoom",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 15",
+    "Freya": "D0 30"
+  },
+  "body": []
+}

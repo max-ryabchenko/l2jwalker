@@ -1,0 +1,10 @@
+{
+  "name": "RequestShortCutReg",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "33",
+    "Freya": "3D"
+  },
+  "body": []
+}

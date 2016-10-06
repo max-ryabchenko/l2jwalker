@@ -1,0 +1,9 @@
+{
+  "name": "RequestTutorialPassCmdToServer",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "86"
+  },
+  "body": []
+}

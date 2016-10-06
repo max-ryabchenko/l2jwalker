@@ -1,0 +1,10 @@
+{
+  "name": "PledgeShowInfoUpdate",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "88",
+    "Freya": "8E"
+  },
+  "body": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "RequestBRGamePoint",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 7F"
+  },
+  "body": []
+}

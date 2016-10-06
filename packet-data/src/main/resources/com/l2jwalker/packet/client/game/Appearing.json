@@ -1,0 +1,10 @@
+{
+  "name": "Appearing",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "30",
+    "Freya": "3A"
+  },
+  "body": []
+}

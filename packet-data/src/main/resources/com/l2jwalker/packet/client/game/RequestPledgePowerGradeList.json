@@ -1,0 +1,10 @@
+{
+  "name": "RequestPledgePowerGradeList",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 1A",
+    "Freya": "D0 13"
+  },
+  "body": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "RequestPostItemList",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 65"
+  },
+  "body": []
+}

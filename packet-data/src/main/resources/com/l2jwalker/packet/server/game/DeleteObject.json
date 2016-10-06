@@ -1,0 +1,10 @@
+{
+  "name": "DeleteObject",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "12",
+    "Freya": "08"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ShowXMasSeal",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "F2",
+    "Freya": "F8"
+  },
+  "body": []
+}

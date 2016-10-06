@@ -1,0 +1,10 @@
+{
+  "name": "RequestHennaEquip",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "BC",
+    "Freya": "6F"
+  },
+  "body": []
+}

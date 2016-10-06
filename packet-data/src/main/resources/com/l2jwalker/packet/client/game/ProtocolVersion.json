@@ -1,0 +1,10 @@
+{
+  "name": "ProtocolVersion",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "00",
+    "Freya": "0E"
+  },
+  "body": []
+}

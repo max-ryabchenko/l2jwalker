@@ -1,0 +1,9 @@
+{
+  "name": "WearList",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "EF"
+  },
+  "body": []
+}

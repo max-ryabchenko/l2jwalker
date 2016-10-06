@@ -1,0 +1,10 @@
+{
+  "name": "ExShowSeedInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FE 1C",
+    "Freya": "FE 23"
+  },
+  "body": []
+}

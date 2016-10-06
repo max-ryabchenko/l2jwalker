@@ -1,0 +1,10 @@
+{
+  "name": "GMViewItemList",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "94",
+    "Freya": "9A"
+  },
+  "body": []
+}

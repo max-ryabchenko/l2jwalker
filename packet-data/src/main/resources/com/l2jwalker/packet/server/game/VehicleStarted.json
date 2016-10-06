@@ -1,0 +1,9 @@
+{
+  "name": "VehicleStarted",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "C0"
+  },
+  "body": []
+}

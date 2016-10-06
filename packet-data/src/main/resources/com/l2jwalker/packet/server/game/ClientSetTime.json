@@ -1,0 +1,9 @@
+{
+  "name": "ClientSetTime",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "F2"
+  },
+  "body": []
+}

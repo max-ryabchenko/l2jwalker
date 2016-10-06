@@ -1,0 +1,9 @@
+{
+  "name": "RequestExEnchantSkillRouteChange",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 34"
+  },
+  "body": []
+}

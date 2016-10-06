@@ -1,0 +1,9 @@
+{
+  "name": "RequestEnchant",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 81"
+  },
+  "body": []
+}

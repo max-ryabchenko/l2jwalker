@@ -1,0 +1,10 @@
+{
+  "name": "RequestSkillList",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "3F",
+    "Freya": "50"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "RequestAllyInfo",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "8E",
+    "Freya": "2E"
+  },
+  "body": []
+}

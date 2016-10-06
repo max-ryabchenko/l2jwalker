@@ -1,0 +1,9 @@
+{
+  "name": "ExNoticePostArrived",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE A9"
+  },
+  "body": []
+}

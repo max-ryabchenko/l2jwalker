@@ -1,0 +1,9 @@
+{
+  "name": "RequestDismissPledge",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "41"
+  },
+  "body": []
+}

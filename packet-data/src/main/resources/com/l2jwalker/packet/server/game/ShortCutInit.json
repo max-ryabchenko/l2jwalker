@@ -1,0 +1,10 @@
+{
+  "name": "ShortCutInit",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "45",
+    "Freya": "45"
+  },
+  "body": []
+}

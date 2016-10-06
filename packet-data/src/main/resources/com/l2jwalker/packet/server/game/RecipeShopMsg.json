@@ -1,0 +1,10 @@
+{
+  "name": "RecipeShopMsg",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "DB",
+    "Freya": "E1"
+  },
+  "body": []
+}

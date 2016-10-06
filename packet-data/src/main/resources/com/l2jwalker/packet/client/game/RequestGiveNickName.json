@@ -1,0 +1,10 @@
+{
+  "name": "RequestGiveNickName",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "55",
+    "Freya": "0B"
+  },
+  "body": []
+}

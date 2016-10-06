@@ -1,0 +1,10 @@
+{
+  "name": "PrivateStoreManageListBuy",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "B7",
+    "Freya": "BD"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ExCursedWeaponLocation",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FE 46",
+    "Freya": "FE 47"
+  },
+  "body": []
+}

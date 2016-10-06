@@ -1,0 +1,10 @@
+{
+  "name": "RequestSellItem",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "1E",
+    "Freya": "37"
+  },
+  "body": []
+}

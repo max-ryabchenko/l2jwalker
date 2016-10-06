@@ -1,0 +1,10 @@
+{
+  "name": "RequestFriendList",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "60",
+    "Freya": "79"
+  },
+  "body": []
+}

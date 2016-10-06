@@ -1,0 +1,10 @@
+{
+  "name": "StaticObject",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "99",
+    "Freya": "9F"
+  },
+  "body": []
+}

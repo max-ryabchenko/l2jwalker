@@ -1,0 +1,9 @@
+{
+  "name": "SkillCoolTime",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "C7"
+  },
+  "body": []
+}

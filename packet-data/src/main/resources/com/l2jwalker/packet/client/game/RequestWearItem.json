@@ -1,0 +1,9 @@
+{
+  "name": "RequestWearItem",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "C6"
+  },
+  "body": []
+}

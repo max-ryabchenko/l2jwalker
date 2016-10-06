@@ -1,0 +1,10 @@
+{
+  "name": "RequestConfirmTargetItem",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 29",
+    "Freya": "D0 26"
+  },
+  "body": []
+}

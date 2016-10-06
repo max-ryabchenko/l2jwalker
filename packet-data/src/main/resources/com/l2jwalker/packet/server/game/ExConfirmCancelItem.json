@@ -1,0 +1,9 @@
+{
+  "name": "ExConfirmCancelItem",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FE 56"
+  },
+  "body": []
+}

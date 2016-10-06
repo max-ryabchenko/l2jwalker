@@ -1,0 +1,10 @@
+{
+  "name": "RequestRecordInfo",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "CF",
+    "Freya": "6E"
+  },
+  "body": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "RequestTutorialLinkHtml",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "85"
+  },
+  "body": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "RequestSentPost",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 6E"
+  },
+  "body": []
+}

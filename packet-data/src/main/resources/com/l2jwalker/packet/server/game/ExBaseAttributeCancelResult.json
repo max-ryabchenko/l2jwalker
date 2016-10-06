@@ -1,0 +1,9 @@
+{
+  "name": "ExBaseAttributeCancelResult",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 75"
+  },
+  "body": []
+}

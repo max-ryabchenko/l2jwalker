@@ -1,0 +1,10 @@
+{
+  "name": "RequestGmList",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "81",
+    "Freya": "8B"
+  },
+  "body": []
+}

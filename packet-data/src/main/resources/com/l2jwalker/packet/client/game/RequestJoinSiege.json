@@ -1,0 +1,10 @@
+{
+  "name": "RequestJoinSiege",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "A4",
+    "Freya": "AD"
+  },
+  "body": []
+}

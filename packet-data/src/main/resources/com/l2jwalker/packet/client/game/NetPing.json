@@ -1,0 +1,10 @@
+{
+  "name": "NetPing",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "A8",
+    "Freya": "B1"
+  },
+  "body": []
+}

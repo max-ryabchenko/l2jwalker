@@ -1,0 +1,10 @@
+{
+  "name": "RequestExEnchantSkillInfo",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 06",
+    "Freya": "D0 0E"
+  },
+  "body": []
+}

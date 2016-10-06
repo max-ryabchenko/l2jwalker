@@ -1,0 +1,9 @@
+{
+  "name": "ExVitalityPointInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE A0"
+  },
+  "body": []
+}

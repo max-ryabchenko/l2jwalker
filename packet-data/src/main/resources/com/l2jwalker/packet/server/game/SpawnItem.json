@@ -1,0 +1,10 @@
+{
+  "name": "SpawnItem",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "0B",
+    "Freya": "05"
+  },
+  "body": []
+}

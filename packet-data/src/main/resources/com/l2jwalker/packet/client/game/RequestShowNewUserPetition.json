@@ -1,0 +1,9 @@
+{
+  "name": "RequestShowNewUserPetition",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 70"
+  },
+  "body": []
+}

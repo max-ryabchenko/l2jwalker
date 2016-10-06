@@ -1,0 +1,9 @@
+{
+  "name": "RequestTeleportBookMark",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 51 04"
+  },
+  "body": []
+}

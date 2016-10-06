@@ -1,0 +1,9 @@
+{
+  "name": "RequestDominionInfo",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 58"
+  },
+  "body": []
+}

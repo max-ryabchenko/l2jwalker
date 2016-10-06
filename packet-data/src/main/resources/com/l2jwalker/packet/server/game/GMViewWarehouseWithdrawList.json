@@ -1,0 +1,10 @@
+{
+  "name": "GMViewWarehouseWithdrawList",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "95",
+    "Freya": "9B"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "NpcHtmlMessage",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "0F",
+    "Freya": "19"
+  },
+  "body": []
+}

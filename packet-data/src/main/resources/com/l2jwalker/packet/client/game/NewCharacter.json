@@ -1,0 +1,10 @@
+{
+  "name": "NewCharacter",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "0E",
+    "Freya": "13"
+  },
+  "body": []
+}

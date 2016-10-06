@@ -1,0 +1,9 @@
+{
+  "name": "BrMinigameInsertScore",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 85"
+  },
+  "body": []
+}

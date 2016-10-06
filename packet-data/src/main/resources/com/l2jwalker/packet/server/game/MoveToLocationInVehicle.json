@@ -1,0 +1,10 @@
+{
+  "name": "MoveToLocationInVehicle",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "71",
+    "Freya": "7E"
+  },
+  "body": []
+}

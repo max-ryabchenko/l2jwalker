@@ -1,0 +1,9 @@
+{
+  "name": "ShopPreviewList",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "F5"
+  },
+  "body": []
+}

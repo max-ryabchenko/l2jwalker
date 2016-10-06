@@ -1,0 +1,10 @@
+{
+  "name": "ValidatePosition",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "48",
+    "Freya": "59"
+  },
+  "body": []
+}

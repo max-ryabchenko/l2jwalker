@@ -1,0 +1,9 @@
+{
+  "name": "RequestExTryToPutEnchantSupportItem",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 4D"
+  },
+  "body": []
+}

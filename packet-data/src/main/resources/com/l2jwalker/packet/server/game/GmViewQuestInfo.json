@@ -1,0 +1,9 @@
+{
+  "name": "GmViewQuestInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "99"
+  },
+  "body": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ExAskModifyPartyLooting",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE BE"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "GMViewSkillInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "91",
+    "Freya": "97"
+  },
+  "body": []
+}

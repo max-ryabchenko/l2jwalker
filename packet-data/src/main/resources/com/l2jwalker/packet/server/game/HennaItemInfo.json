@@ -1,0 +1,9 @@
+{
+  "name": "HennaItemInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "E3"
+  },
+  "body": []
+}

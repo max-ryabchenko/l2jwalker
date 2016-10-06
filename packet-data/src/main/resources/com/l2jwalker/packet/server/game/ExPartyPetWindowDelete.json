@@ -1,0 +1,9 @@
+{
+  "name": "ExPartyPetWindowDelete",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 6A"
+  },
+  "body": []
+}

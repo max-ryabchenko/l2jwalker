@@ -1,0 +1,9 @@
+{
+  "name": "ExReplySentPost",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE AD"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "RequestSiegeDefenderList",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "A3",
+    "Freya": "AC"
+  },
+  "body": []
+}

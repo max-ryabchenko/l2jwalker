@@ -1,0 +1,9 @@
+{
+  "name": "CharTemplates",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "17"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "RequestFriendDel",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "61",
+    "Freya": "7A"
+  },
+  "body": []
+}

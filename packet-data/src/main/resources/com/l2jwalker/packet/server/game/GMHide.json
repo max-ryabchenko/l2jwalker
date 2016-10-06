@@ -1,0 +1,9 @@
+{
+  "name": "GMHide",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "93"
+  },
+  "body": []
+}

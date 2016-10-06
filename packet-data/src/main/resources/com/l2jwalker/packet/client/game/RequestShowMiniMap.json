@@ -1,0 +1,10 @@
+{
+  "name": "RequestShowMiniMap",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "CD",
+    "Freya": "6C"
+  },
+  "body": []
+}

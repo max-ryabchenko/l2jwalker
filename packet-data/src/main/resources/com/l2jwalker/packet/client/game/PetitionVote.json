@@ -1,0 +1,9 @@
+{
+  "name": "PetitionVote",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "C9"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ExMailArrived",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FE 2D",
+    "Freya": "FE 2E"
+  },
+  "body": []
+}

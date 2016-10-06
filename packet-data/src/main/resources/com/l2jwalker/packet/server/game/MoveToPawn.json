@@ -1,0 +1,10 @@
+{
+  "name": "MoveToPawn",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "60",
+    "Freya": "72"
+  },
+  "body": []
+}

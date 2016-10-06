@@ -1,0 +1,10 @@
+{
+  "name": "CameraMode",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "F1",
+    "Freya": "F7"
+  },
+  "body": []
+}

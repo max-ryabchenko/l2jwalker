@@ -1,0 +1,9 @@
+{
+  "name": "FinishRotation",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "63"
+  },
+  "body": []
+}

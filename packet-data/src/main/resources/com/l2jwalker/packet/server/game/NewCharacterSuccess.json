@@ -1,0 +1,9 @@
+{
+  "name": "NewCharacterSuccess",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "0D"
+  },
+  "body": []
+}

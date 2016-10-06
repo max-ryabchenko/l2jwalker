@@ -1,0 +1,10 @@
+{
+  "name": "GMViewCharacterInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "8F",
+    "Freya": "95"
+  },
+  "body": []
+}

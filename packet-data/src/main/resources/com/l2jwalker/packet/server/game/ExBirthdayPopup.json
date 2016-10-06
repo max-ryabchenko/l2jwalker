@@ -1,0 +1,9 @@
+{
+  "name": "ExBirthdayPopup",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 8F"
+  },
+  "body": []
+}

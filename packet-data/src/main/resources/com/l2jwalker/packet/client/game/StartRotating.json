@@ -1,0 +1,9 @@
+{
+  "name": "StartRotating",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "5B"
+  },
+  "body": []
+}

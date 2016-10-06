@@ -1,0 +1,10 @@
+{
+  "name": "RequestGetOffVehicle",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "43",
+    "Freya": "54"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "PetInventoryUpdate",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "B3",
+    "Freya": "B4"
+  },
+  "body": []
+}

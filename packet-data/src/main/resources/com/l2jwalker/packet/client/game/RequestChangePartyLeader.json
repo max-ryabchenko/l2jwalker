@@ -1,0 +1,10 @@
+{
+  "name": "RequestChangePartyLeader",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 04",
+    "Freya": "D0 0C"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ExShowCropInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FE 1D",
+    "Freya": "FE 24"
+  },
+  "body": []
+}

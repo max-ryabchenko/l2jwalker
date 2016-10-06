@@ -1,0 +1,9 @@
+{
+  "name": "RequestMagicSkillList",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "38"
+  },
+  "body": []
+}

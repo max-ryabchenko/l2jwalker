@@ -1,0 +1,10 @@
+{
+  "name": "MoveToLocation",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "01",
+    "Freya": "2F"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "RequestSetPledgeCrest",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "53",
+    "Freya": "09"
+  },
+  "body": []
+}

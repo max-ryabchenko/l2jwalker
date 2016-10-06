@@ -1,0 +1,9 @@
+{
+  "name": "ExBrBroadcastEventState",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE CE"
+  },
+  "body": []
+}

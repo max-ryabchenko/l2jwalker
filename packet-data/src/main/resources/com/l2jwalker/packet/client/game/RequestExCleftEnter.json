@@ -1,0 +1,9 @@
+{
+  "name": "RequestExCleftEnter",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 59"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "PetDelete",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "B6",
+    "Freya": "B7"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "PledgeCrest",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "6C",
+    "Freya": "6A"
+  },
+  "body": []
+}

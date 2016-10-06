@@ -1,0 +1,9 @@
+{
+  "name": "RequestResetNickname",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 50"
+  },
+  "body": []
+}

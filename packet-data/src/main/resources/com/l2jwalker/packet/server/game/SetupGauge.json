@@ -1,0 +1,10 @@
+{
+  "name": "SetupGauge",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "6D",
+    "Freya": "6B"
+  },
+  "body": []
+}

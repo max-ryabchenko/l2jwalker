@@ -1,0 +1,10 @@
+{
+  "name": "EnterWorld",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "03",
+    "Freya": "11"
+  },
+  "body": []
+}

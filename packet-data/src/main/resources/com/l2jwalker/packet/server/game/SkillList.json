@@ -1,0 +1,10 @@
+{
+  "name": "SkillList",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "58",
+    "Freya": "5F"
+  },
+  "body": []
+}

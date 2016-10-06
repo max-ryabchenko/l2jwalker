@@ -1,0 +1,9 @@
+{
+  "name": "SpawnItemPoly",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "0B"
+  },
+  "body": []
+}

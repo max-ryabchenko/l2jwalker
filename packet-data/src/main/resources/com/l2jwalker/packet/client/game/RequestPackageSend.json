@@ -1,0 +1,10 @@
+{
+  "name": "RequestPackageSend",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "9F",
+    "Freya": "A8"
+  },
+  "body": []
+}

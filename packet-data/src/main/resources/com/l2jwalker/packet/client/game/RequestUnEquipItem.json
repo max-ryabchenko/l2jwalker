@@ -1,0 +1,10 @@
+{
+  "name": "RequestUnEquipItem",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "11",
+    "Freya": "16"
+  },
+  "body": []
+}

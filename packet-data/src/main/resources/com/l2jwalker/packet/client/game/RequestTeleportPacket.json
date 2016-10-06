@@ -1,0 +1,9 @@
+{
+  "name": "RequestTeleportPacket",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "33"
+  },
+  "body": []
+}

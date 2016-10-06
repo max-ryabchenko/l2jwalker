@@ -1,0 +1,9 @@
+{
+  "name": "ExAskCoupleAction",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE BB"
+  },
+  "body": []
+}

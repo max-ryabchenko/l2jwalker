@@ -1,0 +1,10 @@
+{
+  "name": "ShowMiniMap",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "9D",
+    "Freya": "A3"
+  },
+  "body": []
+}

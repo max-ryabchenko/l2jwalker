@@ -1,0 +1,9 @@
+{
+  "name": "GMViewQuestList",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "93"
+  },
+  "body": []
+}

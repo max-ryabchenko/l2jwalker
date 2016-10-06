@@ -1,0 +1,10 @@
+{
+  "name": "FriendList",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FA",
+    "Freya": "75"
+  },
+  "body": []
+}

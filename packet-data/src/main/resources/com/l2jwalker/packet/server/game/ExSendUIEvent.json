@@ -1,0 +1,9 @@
+{
+  "name": "ExSendUIEvent",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 8E"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "RequestSSQStatus",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "C7",
+    "Freya": "C8"
+  },
+  "body": []
+}

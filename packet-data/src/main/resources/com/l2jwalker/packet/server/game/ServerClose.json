@@ -1,0 +1,10 @@
+{
+  "name": "ServerClose",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "26",
+    "Freya": "20"
+  },
+  "body": []
+}

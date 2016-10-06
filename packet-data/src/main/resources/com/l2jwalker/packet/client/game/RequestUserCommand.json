@@ -1,0 +1,9 @@
+{
+  "name": "RequestUserCommand",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "AA"
+  },
+  "body": []
+}

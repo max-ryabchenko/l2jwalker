@@ -1,0 +1,10 @@
+{
+  "name": "TradeRequest",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "15",
+    "Freya": "1A"
+  },
+  "body": []
+}

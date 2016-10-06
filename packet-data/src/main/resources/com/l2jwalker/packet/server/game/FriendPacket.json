@@ -1,0 +1,9 @@
+{
+  "name": "FriendPacket",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "76"
+  },
+  "body": []
+}

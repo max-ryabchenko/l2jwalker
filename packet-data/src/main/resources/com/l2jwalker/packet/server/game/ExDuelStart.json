@@ -1,0 +1,10 @@
+{
+  "name": "ExDuelStart",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FE 4D",
+    "Freya": "FE 4E"
+  },
+  "body": []
+}

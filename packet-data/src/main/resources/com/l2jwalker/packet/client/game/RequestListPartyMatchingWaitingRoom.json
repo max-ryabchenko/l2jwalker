@@ -1,0 +1,10 @@
+{
+  "name": "RequestListPartyMatchingWaitingRoom",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 16",
+    "Freya": "D0 31"
+  },
+  "body": []
+}

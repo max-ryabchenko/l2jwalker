@@ -1,0 +1,10 @@
+{
+  "name": "CannotMoveAnymoreInVehicle",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "5D",
+    "Freya": "76"
+  },
+  "body": []
+}

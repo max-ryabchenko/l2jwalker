@@ -1,0 +1,10 @@
+{
+  "name": "ExSendManorList",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FE 1B",
+    "Freya": "FE 22"
+  },
+  "body": []
+}

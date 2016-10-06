@@ -1,0 +1,9 @@
+{
+  "name": "RequestPVPMatchRecord",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 49"
+  },
+  "body": []
+}

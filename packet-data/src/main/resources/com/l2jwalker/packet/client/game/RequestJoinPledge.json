@@ -1,0 +1,10 @@
+{
+  "name": "RequestJoinPledge",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "24",
+    "Freya": "26"
+  },
+  "body": []
+}

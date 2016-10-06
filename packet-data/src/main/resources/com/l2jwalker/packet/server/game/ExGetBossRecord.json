@@ -1,0 +1,10 @@
+{
+  "name": "ExGetBossRecord",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FE 33",
+    "Freya": "FE 34"
+  },
+  "body": []
+}

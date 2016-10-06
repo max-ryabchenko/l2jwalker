@@ -1,0 +1,10 @@
+{
+  "name": "LoginOk",
+  "direction": "Server",
+  "server": "Login",
+  "code": {
+    "Interlude": "03",
+    "Freya": "03"
+  },
+  "body": []
+}

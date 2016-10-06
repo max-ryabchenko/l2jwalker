@@ -1,0 +1,9 @@
+{
+  "name": "ExChangePostState",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE B3"
+  },
+  "body": []
+}

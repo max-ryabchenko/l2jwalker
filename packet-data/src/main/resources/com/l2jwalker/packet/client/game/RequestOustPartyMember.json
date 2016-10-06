@@ -1,0 +1,10 @@
+{
+  "name": "RequestOustPartyMember",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "2C",
+    "Freya": "45"
+  },
+  "body": []
+}

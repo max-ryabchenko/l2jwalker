@@ -1,0 +1,10 @@
+{
+  "name": "AutoAttackStop",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "2C",
+    "Freya": "26"
+  },
+  "body": []
+}

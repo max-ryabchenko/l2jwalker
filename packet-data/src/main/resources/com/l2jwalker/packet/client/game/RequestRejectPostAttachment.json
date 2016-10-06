@@ -1,0 +1,9 @@
+{
+  "name": "RequestRejectPostAttachment",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 6B"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "RequestAskJoinPartyRoom",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 14",
+    "Freya": "D0 2F"
+  },
+  "body": []
+}

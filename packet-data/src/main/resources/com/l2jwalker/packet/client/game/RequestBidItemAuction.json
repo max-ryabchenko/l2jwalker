@@ -1,0 +1,9 @@
+{
+  "name": "RequestBidItemAuction",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 39"
+  },
+  "body": []
+}

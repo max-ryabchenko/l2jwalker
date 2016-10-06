@@ -1,0 +1,9 @@
+{
+  "name": "ClanHallDecoration",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "F7"
+  },
+  "body": []
+}

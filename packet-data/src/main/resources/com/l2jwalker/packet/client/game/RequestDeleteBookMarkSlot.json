@@ -1,0 +1,9 @@
+{
+  "name": "RequestDeleteBookMarkSlot",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 51 03"
+  },
+  "body": []
+}

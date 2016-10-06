@@ -1,0 +1,10 @@
+{
+  "name": "RequestConfirmGemStone",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 2B",
+    "Freya": "D0 28"
+  },
+  "body": []
+}

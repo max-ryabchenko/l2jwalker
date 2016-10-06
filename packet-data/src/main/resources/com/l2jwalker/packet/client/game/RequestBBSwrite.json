@@ -1,0 +1,10 @@
+{
+  "name": "RequestBBSwrite",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "22",
+    "Freya": "24"
+  },
+  "body": []
+}

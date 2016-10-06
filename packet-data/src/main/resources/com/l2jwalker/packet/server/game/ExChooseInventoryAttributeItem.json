@@ -1,0 +1,9 @@
+{
+  "name": "ExChooseInventoryAttributeItem",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 62"
+  },
+  "body": []
+}

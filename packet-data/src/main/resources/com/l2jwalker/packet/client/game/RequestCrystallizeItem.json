@@ -1,0 +1,10 @@
+{
+  "name": "RequestCrystallizeItem",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "72",
+    "Freya": "2F"
+  },
+  "body": []
+}

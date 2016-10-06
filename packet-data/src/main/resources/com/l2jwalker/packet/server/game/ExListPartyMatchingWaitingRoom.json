@@ -1,0 +1,9 @@
+{
+  "name": "ExListPartyMatchingWaitingRoom",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 36"
+  },
+  "body": []
+}

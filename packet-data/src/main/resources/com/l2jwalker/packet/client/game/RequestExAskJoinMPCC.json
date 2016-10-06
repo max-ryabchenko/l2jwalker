@@ -1,0 +1,10 @@
+{
+  "name": "RequestExAskJoinMPCC",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 0D",
+    "Freya": "D0 06"
+  },
+  "body": []
+}

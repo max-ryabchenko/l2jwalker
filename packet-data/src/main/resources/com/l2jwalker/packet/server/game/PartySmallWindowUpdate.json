@@ -1,0 +1,10 @@
+{
+  "name": "PartySmallWindowUpdate",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "52",
+    "Freya": "52"
+  },
+  "body": []
+}

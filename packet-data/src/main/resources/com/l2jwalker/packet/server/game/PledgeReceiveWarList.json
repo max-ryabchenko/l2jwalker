@@ -1,0 +1,10 @@
+{
+  "name": "PledgeReceiveWarList",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FE 3E",
+    "Freya": "FE 3F"
+  },
+  "body": []
+}

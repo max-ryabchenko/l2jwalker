@@ -1,0 +1,9 @@
+{
+  "name": "SignsSky",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "F8"
+  },
+  "body": []
+}

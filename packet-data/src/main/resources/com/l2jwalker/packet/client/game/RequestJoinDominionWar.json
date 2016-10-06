@@ -1,0 +1,9 @@
+{
+  "name": "RequestJoinDominionWar",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 57"
+  },
+  "body": []
+}

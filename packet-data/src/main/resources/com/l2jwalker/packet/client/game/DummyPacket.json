@@ -1,0 +1,9 @@
+{
+  "name": "DummyPacket",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "3E"
+  },
+  "body": []
+}

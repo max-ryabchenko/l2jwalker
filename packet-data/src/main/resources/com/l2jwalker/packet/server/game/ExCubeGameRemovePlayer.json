@@ -1,0 +1,9 @@
+{
+  "name": "ExCubeGameRemovePlayer",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 97 02"
+  },
+  "body": []
+}

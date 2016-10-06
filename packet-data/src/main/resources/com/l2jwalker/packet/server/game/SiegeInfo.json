@@ -1,0 +1,10 @@
+{
+  "name": "SiegeInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "C9",
+    "Freya": "C9"
+  },
+  "body": []
+}

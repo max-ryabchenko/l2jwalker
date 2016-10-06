@@ -1,0 +1,9 @@
+{
+  "name": "RequestHennaList",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "BA"
+  },
+  "body": []
+}

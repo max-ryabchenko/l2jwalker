@@ -1,0 +1,9 @@
+{
+  "name": "ExGetPremiumItemList",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 86"
+  },
+  "body": []
+}

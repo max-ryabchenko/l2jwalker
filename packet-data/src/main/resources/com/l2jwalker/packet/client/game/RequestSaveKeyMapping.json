@@ -1,0 +1,9 @@
+{
+  "name": "RequestSaveKeyMapping",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 22"
+  },
+  "body": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "FriendRecvMsg",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FD"
+  },
+  "body": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ExShowFortressSiegeInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 17"
+  },
+  "body": []
+}

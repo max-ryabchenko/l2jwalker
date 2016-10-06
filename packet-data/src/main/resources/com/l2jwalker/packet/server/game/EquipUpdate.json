@@ -1,0 +1,10 @@
+{
+  "name": "EquipUpdate",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "4B",
+    "Freya": "4B"
+  },
+  "body": []
+}

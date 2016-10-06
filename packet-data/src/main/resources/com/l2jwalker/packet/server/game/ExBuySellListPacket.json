@@ -1,0 +1,9 @@
+{
+  "name": "ExBuySellListPacket",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE B7 01"
+  },
+  "body": []
+}

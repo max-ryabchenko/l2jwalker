@@ -1,0 +1,9 @@
+{
+  "name": "ExDominionWarEnd",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE A4"
+  },
+  "body": []
+}

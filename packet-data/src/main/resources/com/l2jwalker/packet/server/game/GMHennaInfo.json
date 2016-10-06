@@ -1,0 +1,9 @@
+{
+  "name": "GMHennaInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "F0"
+  },
+  "body": []
+}

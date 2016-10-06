@@ -1,0 +1,9 @@
+{
+  "name": "SetToLocation",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "76"
+  },
+  "body": []
+}

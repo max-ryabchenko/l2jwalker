@@ -1,0 +1,10 @@
+{
+  "name": "RequestBuySeed",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "C4",
+    "Freya": "C5"
+  },
+  "body": []
+}

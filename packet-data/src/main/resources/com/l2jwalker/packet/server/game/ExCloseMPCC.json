@@ -1,0 +1,10 @@
+{
+  "name": "ExCloseMPCC",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FE 26",
+    "Freya": "FE 13"
+  },
+  "body": []
+}

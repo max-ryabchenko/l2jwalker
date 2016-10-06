@@ -1,0 +1,9 @@
+{
+  "name": "RequestEvaluate",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "B9"
+  },
+  "body": []
+}

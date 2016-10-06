@@ -1,0 +1,9 @@
+{
+  "name": "RequestFortressMapInfo",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 48"
+  },
+  "body": []
+}

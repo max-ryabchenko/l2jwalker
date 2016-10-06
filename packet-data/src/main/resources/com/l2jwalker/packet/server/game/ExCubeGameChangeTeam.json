@@ -1,0 +1,9 @@
+{
+  "name": "ExCubeGameChangeTeam",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 97 05"
+  },
+  "body": []
+}

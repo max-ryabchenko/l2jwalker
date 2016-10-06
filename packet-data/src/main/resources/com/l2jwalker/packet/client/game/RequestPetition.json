@@ -1,0 +1,10 @@
+{
+  "name": "RequestPetition",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "7F",
+    "Freya": "89"
+  },
+  "body": []
+}

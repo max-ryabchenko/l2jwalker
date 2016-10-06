@@ -1,0 +1,10 @@
+{
+  "name": "TargetSelected",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "29",
+    "Freya": "23"
+  },
+  "body": []
+}

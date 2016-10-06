@@ -1,0 +1,10 @@
+{
+  "name": "AcquireSkillInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "8B",
+    "Freya": "91"
+  },
+  "body": []
+}

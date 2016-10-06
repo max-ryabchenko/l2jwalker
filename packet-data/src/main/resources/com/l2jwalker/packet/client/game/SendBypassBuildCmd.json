@@ -1,0 +1,10 @@
+{
+  "name": "SendBypassBuildCmd",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "5B",
+    "Freya": "74"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "RequestExPledgeCrestLarge",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 10",
+    "Freya": "D0 10"
+  },
+  "body": []
+}

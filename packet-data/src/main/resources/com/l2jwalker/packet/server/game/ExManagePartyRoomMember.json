@@ -1,0 +1,9 @@
+{
+  "name": "ExManagePartyRoomMember",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 0A"
+  },
+  "body": []
+}

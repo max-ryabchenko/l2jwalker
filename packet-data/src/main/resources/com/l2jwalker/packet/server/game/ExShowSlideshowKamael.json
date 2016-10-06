@@ -1,0 +1,9 @@
+{
+  "name": "ExShowSlideshowKamael",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FE 5B"
+  },
+  "body": []
+}

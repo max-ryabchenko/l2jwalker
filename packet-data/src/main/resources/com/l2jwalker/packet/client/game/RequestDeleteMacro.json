@@ -1,0 +1,10 @@
+{
+  "name": "RequestDeleteMacro",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "C2",
+    "Freya": "CE"
+  },
+  "body": []
+}

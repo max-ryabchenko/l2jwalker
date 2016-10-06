@@ -1,0 +1,10 @@
+{
+  "name": "ExShowProcureCropDetail",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FE 22",
+    "Freya": "FE 78"
+  },
+  "body": []
+}

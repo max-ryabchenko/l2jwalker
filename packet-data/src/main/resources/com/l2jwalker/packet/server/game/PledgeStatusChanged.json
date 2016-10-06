@@ -1,0 +1,10 @@
+{
+  "name": "PledgeStatusChanged",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "CD",
+    "Freya": "CD"
+  },
+  "body": []
+}

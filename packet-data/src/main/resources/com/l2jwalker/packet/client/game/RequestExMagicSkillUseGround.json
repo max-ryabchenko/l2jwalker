@@ -1,0 +1,10 @@
+{
+  "name": "RequestExMagicSkillUseGround",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 2F",
+    "Freya": "D0 44"
+  },
+  "body": []
+}

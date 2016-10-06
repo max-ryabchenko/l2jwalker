@@ -1,0 +1,9 @@
+{
+  "name": "RequestDismissParty",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "46"
+  },
+  "body": []
+}

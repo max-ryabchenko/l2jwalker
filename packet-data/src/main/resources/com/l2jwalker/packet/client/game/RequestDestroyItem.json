@@ -1,0 +1,10 @@
+{
+  "name": "RequestDestroyItem",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "59",
+    "Freya": "60"
+  },
+  "body": []
+}

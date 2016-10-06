@@ -1,0 +1,10 @@
+{
+  "name": "RequestConfirmCancelItem",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 2D",
+    "Freya": "D0 42"
+  },
+  "body": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "RequestRecipeShopManageCancel",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "BD"
+  },
+  "body": []
+}

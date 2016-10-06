@@ -1,0 +1,10 @@
+{
+  "name": "CannotMoveAnymore",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "36",
+    "Freya": "47"
+  },
+  "body": []
+}

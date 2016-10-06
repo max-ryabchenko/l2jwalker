@@ -1,0 +1,10 @@
+{
+  "name": "ObserverReturn",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "B8",
+    "Freya": "C1"
+  },
+  "body": []
+}

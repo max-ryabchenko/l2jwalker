@@ -1,0 +1,9 @@
+{
+  "name": "ExSetPartyLooting",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE BF"
+  },
+  "body": []
+}

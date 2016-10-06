@@ -1,0 +1,10 @@
+{
+  "name": "VehicleDeparture",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "5A",
+    "Freya": "6C"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "PartyMemberPosition",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "A7",
+    "Freya": "BA"
+  },
+  "body": []
+}

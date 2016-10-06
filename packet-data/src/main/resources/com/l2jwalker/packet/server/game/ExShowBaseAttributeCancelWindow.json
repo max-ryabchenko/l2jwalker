@@ -1,0 +1,9 @@
+{
+  "name": "ExShowBaseAttributeCancelWindow",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 74"
+  },
+  "body": []
+}

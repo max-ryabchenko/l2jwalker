@@ -1,0 +1,10 @@
+{
+  "name": "StopMove",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "47",
+    "Freya": "47"
+  },
+  "body": []
+}

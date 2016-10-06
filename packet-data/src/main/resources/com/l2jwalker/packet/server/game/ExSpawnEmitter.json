@@ -1,0 +1,9 @@
+{
+  "name": "ExSpawnEmitter",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 5D"
+  },
+  "body": []
+}

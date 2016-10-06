@@ -1,0 +1,9 @@
+{
+  "name": "ExMultiPartyCommandChannelInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 31"
+  },
+  "body": []
+}

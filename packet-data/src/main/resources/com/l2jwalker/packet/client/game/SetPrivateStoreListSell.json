@@ -1,0 +1,10 @@
+{
+  "name": "SetPrivateStoreListSell",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "74",
+    "Freya": "31"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "RequestPledgeReorganizeMember",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 24",
+    "Freya": "D0 2C"
+  },
+  "body": []
+}

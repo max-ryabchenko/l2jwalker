@@ -1,0 +1,10 @@
+{
+  "name": "AskJoinAlly",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "A8",
+    "Freya": "BB"
+  },
+  "body": []
+}

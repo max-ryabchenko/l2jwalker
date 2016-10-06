@@ -1,0 +1,9 @@
+{
+  "name": "PremiumState",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE AA"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "GetItem",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "0D",
+    "Freya": "17"
+  },
+  "body": []
+}

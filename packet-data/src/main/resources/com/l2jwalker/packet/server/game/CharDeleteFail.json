@@ -1,0 +1,10 @@
+{
+  "name": "CharDeleteFail",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "24",
+    "Freya": "1E"
+  },
+  "body": []
+}

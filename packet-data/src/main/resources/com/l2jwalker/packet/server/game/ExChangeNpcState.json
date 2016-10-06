@@ -1,0 +1,9 @@
+{
+  "name": "ExChangeNpcState",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE BD"
+  },
+  "body": []
+}

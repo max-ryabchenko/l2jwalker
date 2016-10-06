@@ -1,0 +1,10 @@
+{
+  "name": "DropItem",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "0C",
+    "Freya": "16"
+  },
+  "body": []
+}

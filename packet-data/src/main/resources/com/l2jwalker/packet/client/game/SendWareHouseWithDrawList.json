@@ -1,0 +1,10 @@
+{
+  "name": "SendWareHouseWithDrawList",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "32",
+    "Freya": "3C"
+  },
+  "body": []
+}

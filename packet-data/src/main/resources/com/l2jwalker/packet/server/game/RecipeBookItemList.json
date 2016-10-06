@@ -1,0 +1,10 @@
+{
+  "name": "RecipeBookItemList",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "D6",
+    "Freya": "DC"
+  },
+  "body": []
+}

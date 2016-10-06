@@ -1,0 +1,10 @@
+{
+  "name": "RequestWithDrawalParty",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "2B",
+    "Freya": "44"
+  },
+  "body": []
+}

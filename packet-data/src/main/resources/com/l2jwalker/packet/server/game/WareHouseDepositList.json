@@ -1,0 +1,10 @@
+{
+  "name": "WareHouseDepositList",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "41",
+    "Freya": "41"
+  },
+  "body": []
+}

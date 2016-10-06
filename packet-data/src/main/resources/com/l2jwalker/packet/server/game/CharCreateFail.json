@@ -1,0 +1,10 @@
+{
+  "name": "CharCreateFail",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "1A",
+    "Freya": "10"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "MultiSellList",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0",
+    "Freya": "D0"
+  },
+  "body": []
+}

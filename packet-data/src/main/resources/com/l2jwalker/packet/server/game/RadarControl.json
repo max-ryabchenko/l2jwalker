@@ -1,0 +1,10 @@
+{
+  "name": "RadarControl",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "EB",
+    "Freya": "F1"
+  },
+  "body": []
+}

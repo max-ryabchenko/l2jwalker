@@ -1,0 +1,10 @@
+{
+  "name": "QuestList",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "80",
+    "Freya": "86"
+  },
+  "body": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "RequestSeedPhase",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 63"
+  },
+  "body": []
+}

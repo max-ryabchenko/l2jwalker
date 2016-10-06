@@ -1,0 +1,10 @@
+{
+  "name": "MagicSkillUse",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "48",
+    "Freya": "48"
+  },
+  "body": []
+}

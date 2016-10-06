@@ -1,0 +1,10 @@
+{
+  "name": "RequestRefine",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 2C",
+    "Freya": "D0 41"
+  },
+  "body": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ExRegMax",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 01"
+  },
+  "body": []
+}

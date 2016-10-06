@@ -1,0 +1,10 @@
+{
+  "name": "RequestConfirmRefinerItem",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 2A",
+    "Freya": "D0 27"
+  },
+  "body": []
+}

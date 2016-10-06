@@ -1,0 +1,10 @@
+{
+  "name": "PlayOk",
+  "direction": "Server",
+  "server": "Login",
+  "code": {
+    "Interlude": "07",
+    "Freya": "07"
+  },
+  "body": []
+}

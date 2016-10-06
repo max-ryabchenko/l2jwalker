@@ -1,0 +1,9 @@
+{
+  "name": "ExConfirmVariationGemstone",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FE 54"
+  },
+  "body": []
+}

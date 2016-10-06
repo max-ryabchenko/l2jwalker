@@ -1,0 +1,10 @@
+{
+  "name": "RequestOlympiadMatchList",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 13",
+    "Freya": "D0 2E"
+  },
+  "body": []
+}

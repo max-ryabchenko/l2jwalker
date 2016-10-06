@@ -1,0 +1,10 @@
+{
+  "name": "RequestMakeMacro",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "C1",
+    "Freya": "CD"
+  },
+  "body": []
+}

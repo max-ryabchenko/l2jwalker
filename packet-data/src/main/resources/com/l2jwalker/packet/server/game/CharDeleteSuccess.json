@@ -1,0 +1,9 @@
+{
+  "name": "CharDeleteSuccess",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "1D"
+  },
+  "body": []
+}

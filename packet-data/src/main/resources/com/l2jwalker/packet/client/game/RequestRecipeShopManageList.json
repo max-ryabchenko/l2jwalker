@@ -1,0 +1,9 @@
+{
+  "name": "RequestRecipeShopManageList",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "B9"
+  },
+  "body": []
+}

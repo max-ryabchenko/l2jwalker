@@ -1,0 +1,10 @@
+{
+  "name": "RequestSurrenderPledgeWar",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "51",
+    "Freya": "07"
+  },
+  "body": []
+}

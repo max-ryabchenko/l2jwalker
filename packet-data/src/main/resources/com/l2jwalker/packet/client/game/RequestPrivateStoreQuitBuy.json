@@ -1,0 +1,10 @@
+{
+  "name": "RequestPrivateStoreQuitBuy",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "93",
+    "Freya": "9C"
+  },
+  "body": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "RequestExCubeGameChangeTeam",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 5A"
+  },
+  "body": []
+}

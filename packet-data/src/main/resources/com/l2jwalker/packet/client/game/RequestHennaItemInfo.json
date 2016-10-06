@@ -1,0 +1,9 @@
+{
+  "name": "RequestHennaItemInfo",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "BB"
+  },
+  "body": []
+}

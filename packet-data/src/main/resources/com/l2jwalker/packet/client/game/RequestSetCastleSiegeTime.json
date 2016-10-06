@@ -1,0 +1,9 @@
+{
+  "name": "RequestSetCastleSiegeTime",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "AF"
+  },
+  "body": []
+}

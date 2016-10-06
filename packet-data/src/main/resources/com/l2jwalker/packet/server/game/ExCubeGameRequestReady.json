@@ -1,0 +1,9 @@
+{
+  "name": "ExCubeGameRequestReady",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 97 04"
+  },
+  "body": []
+}

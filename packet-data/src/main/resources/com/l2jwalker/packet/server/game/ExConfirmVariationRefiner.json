@@ -1,0 +1,9 @@
+{
+  "name": "ExConfirmVariationRefiner",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FE 53"
+  },
+  "body": []
+}

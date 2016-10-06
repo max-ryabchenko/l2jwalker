@@ -1,0 +1,10 @@
+{
+  "name": "RequestDismissAlly",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "86",
+    "Freya": "90"
+  },
+  "body": []
+}

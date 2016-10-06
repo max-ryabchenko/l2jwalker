@@ -1,0 +1,10 @@
+{
+  "name": "Attack",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "05",
+    "Freya": "33"
+  },
+  "body": []
+}

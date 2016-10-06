@@ -1,0 +1,9 @@
+{
+  "name": "NetPingRequest",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "D3"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "SocialAction",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "2D",
+    "Freya": "27"
+  },
+  "body": []
+}

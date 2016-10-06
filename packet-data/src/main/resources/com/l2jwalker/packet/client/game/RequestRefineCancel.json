@@ -1,0 +1,10 @@
+{
+  "name": "RequestRefineCancel",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 2E",
+    "Freya": "D0 43"
+  },
+  "body": []
+}

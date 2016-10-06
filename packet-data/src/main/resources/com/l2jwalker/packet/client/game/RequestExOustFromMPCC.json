@@ -1,0 +1,10 @@
+{
+  "name": "RequestExOustFromMPCC",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 0F",
+    "Freya": "D0 08"
+  },
+  "body": []
+}

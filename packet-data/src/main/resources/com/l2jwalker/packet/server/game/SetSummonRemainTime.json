@@ -1,0 +1,10 @@
+{
+  "name": "SetSummonRemainTime",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "D1",
+    "Freya": "D1"
+  },
+  "body": []
+}

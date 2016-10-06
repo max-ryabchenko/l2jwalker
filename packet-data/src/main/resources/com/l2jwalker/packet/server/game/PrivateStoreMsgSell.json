@@ -1,0 +1,10 @@
+{
+  "name": "PrivateStoreMsgSell",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "9C",
+    "Freya": "A2"
+  },
+  "body": []
+}

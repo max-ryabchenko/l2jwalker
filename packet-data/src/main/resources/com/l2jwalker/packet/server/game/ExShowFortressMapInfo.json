@@ -1,0 +1,9 @@
+{
+  "name": "ExShowFortressMapInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 7D"
+  },
+  "body": []
+}

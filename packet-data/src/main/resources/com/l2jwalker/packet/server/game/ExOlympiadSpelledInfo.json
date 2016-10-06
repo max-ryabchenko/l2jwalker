@@ -1,0 +1,10 @@
+{
+  "name": "ExOlympiadSpelledInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FE 2A",
+    "Freya": "FE 7B"
+  },
+  "body": []
+}

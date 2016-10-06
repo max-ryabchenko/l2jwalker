@@ -1,0 +1,10 @@
+{
+  "name": "RequestDismissPartyRoom",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "D0 02",
+    "Freya": "D0 0A"
+  },
+  "body": []
+}

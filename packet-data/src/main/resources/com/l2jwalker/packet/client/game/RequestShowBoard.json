@@ -1,0 +1,10 @@
+{
+  "name": "RequestShowBoard",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "57",
+    "Freya": "5E"
+  },
+  "body": []
+}

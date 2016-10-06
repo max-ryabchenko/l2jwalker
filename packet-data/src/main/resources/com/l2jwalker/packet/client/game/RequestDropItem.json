@@ -1,0 +1,10 @@
+{
+  "name": "RequestDropItem",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "12",
+    "Freya": "17"
+  },
+  "body": []
+}

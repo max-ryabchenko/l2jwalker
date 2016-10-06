@@ -1,0 +1,10 @@
+{
+  "name": "RequestBypassToServer",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "21",
+    "Freya": "23"
+  },
+  "body": []
+}

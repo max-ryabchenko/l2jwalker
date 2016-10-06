@@ -1,0 +1,10 @@
+{
+  "name": "ExOlympiadMode",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FE 2B",
+    "Freya": "FE 7C"
+  },
+  "body": []
+}

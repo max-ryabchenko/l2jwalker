@@ -1,0 +1,10 @@
+{
+  "name": "ExEnchantSkillInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FE 18",
+    "Freya": "FE 2A"
+  },
+  "body": []
+}

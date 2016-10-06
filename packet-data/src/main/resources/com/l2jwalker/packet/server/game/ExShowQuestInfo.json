@@ -1,0 +1,9 @@
+{
+  "name": "ExShowQuestInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 20"
+  },
+  "body": []
+}

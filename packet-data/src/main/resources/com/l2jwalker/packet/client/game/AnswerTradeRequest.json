@@ -1,0 +1,10 @@
+{
+  "name": "AnswerTradeRequest",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "44",
+    "Freya": "55"
+  },
+  "body": []
+}

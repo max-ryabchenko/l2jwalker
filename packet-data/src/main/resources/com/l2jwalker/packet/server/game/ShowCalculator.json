@@ -1,0 +1,10 @@
+{
+  "name": "ShowCalculator",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "DC",
+    "Freya": "E2"
+  },
+  "body": []
+}

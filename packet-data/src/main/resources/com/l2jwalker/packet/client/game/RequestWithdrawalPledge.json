@@ -1,0 +1,10 @@
+{
+  "name": "RequestWithdrawalPledge",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "26",
+    "Freya": "28"
+  },
+  "body": []
+}

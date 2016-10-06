@@ -1,0 +1,10 @@
+{
+  "name": "RequestTargetCanceld",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "37",
+    "Freya": "48"
+  },
+  "body": []
+}

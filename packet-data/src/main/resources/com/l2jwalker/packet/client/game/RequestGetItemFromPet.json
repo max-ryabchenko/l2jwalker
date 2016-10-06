@@ -1,0 +1,10 @@
+{
+  "name": "RequestGetItemFromPet",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "8C",
+    "Freya": "2C"
+  },
+  "body": []
+}

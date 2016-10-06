@@ -1,0 +1,9 @@
+{
+  "name": "RequestExEnchantSkillUntrain",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 33"
+  },
+  "body": []
+}

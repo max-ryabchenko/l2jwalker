@@ -1,0 +1,10 @@
+{
+  "name": "ShortCutRegister",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "44",
+    "Freya": "44"
+  },
+  "body": []
+}

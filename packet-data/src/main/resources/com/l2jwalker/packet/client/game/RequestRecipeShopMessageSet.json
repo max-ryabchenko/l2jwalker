@@ -1,0 +1,10 @@
+{
+  "name": "RequestRecipeShopMessageSet",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "B1",
+    "Freya": "BA"
+  },
+  "body": []
+}

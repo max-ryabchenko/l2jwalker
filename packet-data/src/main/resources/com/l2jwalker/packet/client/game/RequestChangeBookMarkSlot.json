@@ -1,0 +1,9 @@
+{
+  "name": "RequestChangeBookMarkSlot",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 51 05"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "RecipeItemMakeInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "D7",
+    "Freya": "DD"
+  },
+  "body": []
+}

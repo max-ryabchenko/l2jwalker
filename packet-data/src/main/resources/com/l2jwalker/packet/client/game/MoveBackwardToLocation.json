@@ -1,0 +1,10 @@
+{
+  "name": "MoveBackwardToLocation",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "01",
+    "Freya": "0F"
+  },
+  "body": []
+}

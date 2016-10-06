@@ -1,0 +1,9 @@
+{
+  "name": "ExNeedToChangeName",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 69"
+  },
+  "body": []
+}

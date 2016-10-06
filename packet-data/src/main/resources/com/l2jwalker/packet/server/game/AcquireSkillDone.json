@@ -1,0 +1,9 @@
+{
+  "name": "AcquireSkillDone",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "94"
+  },
+  "body": []
+}

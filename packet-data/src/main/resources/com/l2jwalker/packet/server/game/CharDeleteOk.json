@@ -1,0 +1,9 @@
+{
+  "name": "CharDeleteOk",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "23"
+  },
+  "body": []
+}

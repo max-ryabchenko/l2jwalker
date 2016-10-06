@@ -1,0 +1,9 @@
+{
+  "name": "RequestBuySellUIClose",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 76"
+  },
+  "body": []
+}

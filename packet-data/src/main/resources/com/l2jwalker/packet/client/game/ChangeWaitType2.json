@@ -1,0 +1,10 @@
+{
+  "name": "ChangeWaitType2",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "1D",
+    "Freya": "36"
+  },
+  "body": []
+}

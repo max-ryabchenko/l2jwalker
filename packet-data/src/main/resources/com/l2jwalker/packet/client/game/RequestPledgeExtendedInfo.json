@@ -1,0 +1,9 @@
+{
+  "name": "RequestPledgeExtendedInfo",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "66"
+  },
+  "body": []
+}

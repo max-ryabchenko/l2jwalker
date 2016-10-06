@@ -1,0 +1,10 @@
+{
+  "name": "StopMoveInVehicle",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "72",
+    "Freya": "7F"
+  },
+  "body": []
+}

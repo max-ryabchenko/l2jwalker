@@ -1,0 +1,10 @@
+{
+  "name": "PledgeReceivePowerInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FE 3C",
+    "Freya": "FE 3D"
+  },
+  "body": []
+}

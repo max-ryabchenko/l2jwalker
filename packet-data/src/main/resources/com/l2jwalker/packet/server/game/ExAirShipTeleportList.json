@@ -1,0 +1,9 @@
+{
+  "name": "ExAirShipTeleportList",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 9A"
+  },
+  "body": []
+}

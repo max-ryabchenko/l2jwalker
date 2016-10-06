@@ -1,0 +1,9 @@
+{
+  "name": "RequestHennaDrawList",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "C3"
+  },
+  "body": []
+}

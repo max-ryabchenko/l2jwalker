@@ -1,0 +1,9 @@
+{
+  "name": "RequestSurrenderPersonally",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "69"
+  },
+  "body": []
+}

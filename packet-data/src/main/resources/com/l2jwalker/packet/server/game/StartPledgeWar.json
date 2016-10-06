@@ -1,0 +1,10 @@
+{
+  "name": "StartPledgeWar",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "65",
+    "Freya": "63"
+  },
+  "body": []
+}

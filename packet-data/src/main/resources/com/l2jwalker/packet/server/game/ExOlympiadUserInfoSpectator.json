@@ -1,0 +1,9 @@
+{
+  "name": "ExOlympiadUserInfoSpectator",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FE 29"
+  },
+  "body": []
+}

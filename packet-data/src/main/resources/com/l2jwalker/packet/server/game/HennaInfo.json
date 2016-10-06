@@ -1,0 +1,10 @@
+{
+  "name": "HennaInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "E4",
+    "Freya": "E5"
+  },
+  "body": []
+}

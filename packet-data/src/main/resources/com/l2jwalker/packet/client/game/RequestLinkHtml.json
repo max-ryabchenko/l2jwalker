@@ -1,0 +1,10 @@
+{
+  "name": "RequestLinkHtml",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "20",
+    "Freya": "22"
+  },
+  "body": []
+}

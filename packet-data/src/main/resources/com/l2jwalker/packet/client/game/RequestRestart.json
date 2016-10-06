@@ -1,0 +1,10 @@
+{
+  "name": "RequestRestart",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "46",
+    "Freya": "57"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "PledgeReceiveSubPledgeCreated",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FE 3F",
+    "Freya": "FE 40"
+  },
+  "body": []
+}

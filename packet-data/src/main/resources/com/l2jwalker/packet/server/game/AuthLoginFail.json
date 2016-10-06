@@ -1,0 +1,9 @@
+{
+  "name": "AuthLoginFail",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "14"
+  },
+  "body": []
+}

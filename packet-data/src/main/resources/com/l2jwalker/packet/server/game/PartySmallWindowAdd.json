@@ -1,0 +1,10 @@
+{
+  "name": "PartySmallWindowAdd",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "4F",
+    "Freya": "4F"
+  },
+  "body": []
+}

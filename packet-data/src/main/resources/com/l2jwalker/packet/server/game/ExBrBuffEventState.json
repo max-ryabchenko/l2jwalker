@@ -1,0 +1,9 @@
+{
+  "name": "ExBrBuffEventState",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE D0"
+  },
+  "body": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "RequestEventMatchObserverEnd",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 77"
+  },
+  "body": []
+}

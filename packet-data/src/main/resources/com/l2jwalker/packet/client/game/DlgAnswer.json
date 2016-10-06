@@ -1,0 +1,10 @@
+{
+  "name": "DlgAnswer",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "C5",
+    "Freya": "C6"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "EtcStatusUpdate",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "F3",
+    "Freya": "F9"
+  },
+  "body": []
+}

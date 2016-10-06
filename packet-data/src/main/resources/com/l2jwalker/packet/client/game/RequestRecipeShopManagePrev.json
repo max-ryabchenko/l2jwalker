@@ -1,0 +1,10 @@
+{
+  "name": "RequestRecipeShopManagePrev",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "B7",
+    "Freya": "C0"
+  },
+  "body": []
+}

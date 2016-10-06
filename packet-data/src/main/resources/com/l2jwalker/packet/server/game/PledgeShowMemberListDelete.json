@@ -1,0 +1,10 @@
+{
+  "name": "PledgeShowMemberListDelete",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "56",
+    "Freya": "5D"
+  },
+  "body": []
+}

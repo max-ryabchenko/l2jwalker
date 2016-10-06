@@ -1,0 +1,9 @@
+{
+  "name": "ExBasicActionList",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 5F"
+  },
+  "body": []
+}

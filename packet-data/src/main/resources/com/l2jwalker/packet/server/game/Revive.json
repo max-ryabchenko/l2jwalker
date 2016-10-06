@@ -1,0 +1,10 @@
+{
+  "name": "Revive",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "07",
+    "Freya": "01"
+  },
+  "body": []
+}

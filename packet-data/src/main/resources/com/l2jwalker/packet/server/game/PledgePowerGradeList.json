@@ -1,0 +1,10 @@
+{
+  "name": "PledgePowerGradeList",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FE 3B",
+    "Freya": "FE 3C"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ManagePledgePower",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "30",
+    "Freya": "2A"
+  },
+  "body": []
+}

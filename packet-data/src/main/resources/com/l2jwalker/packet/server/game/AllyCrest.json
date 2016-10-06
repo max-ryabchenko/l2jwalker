@@ -1,0 +1,10 @@
+{
+  "name": "AllyCrest",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "AE",
+    "Freya": "AF"
+  },
+  "body": []
+}

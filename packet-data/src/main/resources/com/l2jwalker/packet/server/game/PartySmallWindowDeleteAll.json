@@ -1,0 +1,10 @@
+{
+  "name": "PartySmallWindowDeleteAll",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "50",
+    "Freya": "50"
+  },
+  "body": []
+}

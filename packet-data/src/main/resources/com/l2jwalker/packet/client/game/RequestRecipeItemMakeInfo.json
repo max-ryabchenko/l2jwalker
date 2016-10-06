@@ -1,0 +1,10 @@
+{
+  "name": "RequestRecipeItemMakeInfo",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "AE",
+    "Freya": "B7"
+  },
+  "body": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "PartyMatchDetail",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "97",
+    "Freya": "9D"
+  },
+  "body": []
+}

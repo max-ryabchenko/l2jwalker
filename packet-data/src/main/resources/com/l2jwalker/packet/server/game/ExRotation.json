@@ -1,0 +1,9 @@
+{
+  "name": "ExRotation",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE C0"
+  },
+  "body": []
+}

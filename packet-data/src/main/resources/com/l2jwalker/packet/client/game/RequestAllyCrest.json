@@ -1,0 +1,10 @@
+{
+  "name": "RequestAllyCrest",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "88",
+    "Freya": "92"
+  },
+  "body": []
+}

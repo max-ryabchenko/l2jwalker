@@ -1,0 +1,10 @@
+{
+  "name": "TradeDone",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "22",
+    "Freya": "1C"
+  },
+  "body": []
+}

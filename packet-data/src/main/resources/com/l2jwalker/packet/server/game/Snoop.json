@@ -1,0 +1,10 @@
+{
+  "name": "Snoop",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "D5",
+    "Freya": "DB"
+  },
+  "body": []
+}

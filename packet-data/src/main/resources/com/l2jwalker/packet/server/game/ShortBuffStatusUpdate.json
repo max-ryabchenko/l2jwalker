@@ -1,0 +1,10 @@
+{
+  "name": "ShortBuffStatusUpdate",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "F4",
+    "Freya": "FA"
+  },
+  "body": []
+}

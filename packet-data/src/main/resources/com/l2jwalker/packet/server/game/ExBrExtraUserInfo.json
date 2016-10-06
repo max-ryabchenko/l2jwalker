@@ -1,0 +1,9 @@
+{
+  "name": "ExBrExtraUserInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE CF"
+  },
+  "body": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "RequestStopShowCrataeCubeRank",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 55"
+  },
+  "body": []
+}

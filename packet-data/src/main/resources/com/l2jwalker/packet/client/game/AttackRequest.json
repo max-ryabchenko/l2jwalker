@@ -1,0 +1,10 @@
+{
+  "name": "AttackRequest",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "0A",
+    "Freya": "32"
+  },
+  "body": []
+}

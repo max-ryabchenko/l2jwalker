@@ -1,0 +1,9 @@
+{
+  "name": "ExPlayScene",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Freya": "FE 5C"
+  },
+  "body": []
+}

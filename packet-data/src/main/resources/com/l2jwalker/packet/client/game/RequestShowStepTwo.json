@@ -1,0 +1,9 @@
+{
+  "name": "RequestShowStepTwo",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "D0 72"
+  },
+  "body": []
+}

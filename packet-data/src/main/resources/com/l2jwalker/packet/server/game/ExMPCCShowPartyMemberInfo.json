@@ -1,0 +1,10 @@
+{
+  "name": "ExMPCCShowPartyMemberInfo",
+  "direction": "Server",
+  "server": "Game",
+  "code": {
+    "Interlude": "FE 4A",
+    "Freya": "FE 4B"
+  },
+  "body": []
+}

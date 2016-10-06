@@ -1,0 +1,9 @@
+{
+  "name": "Say",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Freya": "10"
+  },
+  "body": []
+}

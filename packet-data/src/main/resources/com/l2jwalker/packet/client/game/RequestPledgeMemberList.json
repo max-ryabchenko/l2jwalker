@@ -1,0 +1,10 @@
+{
+  "name": "RequestPledgeMemberList",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "3C",
+    "Freya": "4D"
+  },
+  "body": []
+}

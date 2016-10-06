@@ -1,0 +1,10 @@
+{
+  "name": "RequestActionUse",
+  "direction": "Client",
+  "server": "Game",
+  "code": {
+    "Interlude": "45",
+    "Freya": "56"
+  },
+  "body": []
+}
