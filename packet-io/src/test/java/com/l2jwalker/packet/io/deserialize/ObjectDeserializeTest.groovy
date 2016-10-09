@@ -1,7 +1,7 @@
 package com.l2jwalker.packet.io.deserialize
 
 import com.l2jwalker.packet.io.AbstractIOTest
-import com.l2jwalker.packet.io.Serializer
+import com.l2jwalker.packet.io.PacketIO
 import com.l2jwalker.packet.io.TestObject1
 import com.l2jwalker.packet.io.TestObject2
 import com.l2jwalker.util.io.IOUtil
@@ -15,14 +15,14 @@ import static org.junit.Assert.assertEquals
 @RunWith(MockitoJUnitRunner.class)
 class ObjectDeserializeTest extends AbstractIOTest {
 
-    Serializer serializer
+    PacketIO serializer
 
     Map<String, Object> data
     TestObject1 testObject1
 
     @Before
     public void before() {
-        serializer = new Serializer()
+        serializer = new PacketIO()
         testObject1 = new TestObject1(
                 byteTest1: randomByte(),
                 byteTest2: randomByte(),
@@ -69,7 +69,7 @@ class ObjectDeserializeTest extends AbstractIOTest {
 
         Map data = [:]
 
-        assertEquals(offset, serializer.deserializeArray(new ByteArrayInputStream(result), data, getTemplate("../complex/object.js"), 1))
+        assertEquals(offset, serializer.readArray(new ByteArrayInputStream(result), data, getTemplate("../complex/object.js"), 1))
 
         log.info(data)
 

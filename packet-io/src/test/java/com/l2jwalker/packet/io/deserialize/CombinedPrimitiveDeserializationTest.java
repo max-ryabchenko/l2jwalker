@@ -1,10 +1,8 @@
 package com.l2jwalker.packet.io.deserialize;
 
 import com.l2jwalker.packet.io.AbstractIOTest;
-import com.l2jwalker.packet.io.Serializer;
+import com.l2jwalker.packet.io.PacketIO;
 import com.l2jwalker.util.io.IOUtil;
-import org.json.JSONArray;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -21,7 +19,7 @@ import static org.junit.Assert.assertEquals;
 @RunWith(MockitoJUnitRunner.class)
 public class CombinedPrimitiveDeserializationTest extends AbstractIOTest {
 
-    Serializer serializer;
+    PacketIO packetIO;
     ByteArrayInputStream src;
     Map<String, Object> data;
 
@@ -29,7 +27,7 @@ public class CombinedPrimitiveDeserializationTest extends AbstractIOTest {
 
     @Before
     public void before(){
-        serializer = new Serializer();
+        packetIO = new PacketIO();
         buff = new byte[1024];
         data = new HashMap<String, Object>() {{
             put("testByte1", randomByte());
@@ -69,7 +67,7 @@ public class CombinedPrimitiveDeserializationTest extends AbstractIOTest {
 
         src = new ByteArrayInputStream(out.toByteArray());
         Map<String, Object> result = new HashMap<String, Object>();
-        assertEquals(offset, serializer.deserializeArray(src, result, getTemplate("../combined-primitive/test1.js"), 1));
+        assertEquals(offset, packetIO.readArray(src, result, getTemplate("../combined-primitive/test1.js"), 1));
 
         assertEquals(data.get("testByte1"), result.get("testByte1"));
         assertEquals(data.get("testShort1"), result.get("testShort1"));
@@ -108,7 +106,7 @@ public class CombinedPrimitiveDeserializationTest extends AbstractIOTest {
 
         src = new ByteArrayInputStream(out.toByteArray());
         Map<String, Object> result = new HashMap<String, Object>();
-        assertEquals(offset, serializer.deserializeArray(src, result, getTemplate("../combined-primitive/test2.js"), 1));
+        assertEquals(offset, packetIO.readArray(src, result, getTemplate("../combined-primitive/test2.js"), 1));
 
         assertEquals(data.get("testByte1"), result.get("testByte1"));
         assertEquals(data.get("testByte2"), result.get("testByte2"));

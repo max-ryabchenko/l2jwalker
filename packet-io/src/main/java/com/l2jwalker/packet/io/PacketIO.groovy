@@ -5,9 +5,9 @@ import org.apache.log4j.Logger
 import org.json.JSONArray
 import org.json.JSONObject
 
-public class Serializer {
+public class PacketIO {
 
-    private static Logger LOG = Logger.getLogger(Serializer.class)
+    private static Logger LOG = Logger.getLogger(PacketIO.class)
 
     private static final Map<Attribute, List<String>> ATTRS = [:]
     static {
@@ -27,7 +27,7 @@ public class Serializer {
         DATA_TYPE.put(DataType.Bool2, ['boolWord', 'bool2', 'b2'])
         DATA_TYPE.put(DataType.Bool4, ['boolDoubleWord', 'bool4', 'b4'])
         DATA_TYPE.put(DataType.Bool8, ['boolQuadWord', 'bool8', 'b8'])
-        DATA_TYPE.put(DataType.ByteArray, ['byteArray'])
+        DATA_TYPE.put(DataType.ByteArray, ['byteArray', 'a'])
         DATA_TYPE.put(DataType.UnicodeString, ['unicode', 'u'])
         DATA_TYPE.put(DataType.Object, ['object', 'o'])
         DATA_TYPE.put(DataType.List1, ['list1', 'l1'])
@@ -38,15 +38,15 @@ public class Serializer {
 
     private static final byte[] EMPTY_ARRAY = new byte[0];
 
-    public int serializeArray(OutputStream src, Object data, JSONArray template, Integer version) throws IOException {
+    public int writeArray(OutputStream src, Object data, JSONArray template, Integer version) throws IOException {
         int writedBytesCount = 0
         for (int elemNum = 0; elemNum < template.length(); elemNum++) {
-            writedBytesCount += serializeObject(src, data, template.get(elemNum) as JSONObject, version)
+            writedBytesCount += writeObject(src, data, template.get(elemNum) as JSONObject, version)
         }
         writedBytesCount
     }
 
-    public int serializeObject(OutputStream src, Object data, JSONObject template, Integer version) throws IOException {
+    public int writeObject(OutputStream src, Object data, JSONObject template, Integer version) throws IOException {
         if (!checkVersion(version, getAttr(template, Attribute.Version))) {
             return 0
         }
@@ -85,9 +85,9 @@ public class Serializer {
                 return IOUtil.writeU(src, null == value ? '' : (String) value)
             case DataType.Object:
                 if (template.get('inner') instanceof JSONArray) {
-                    return serializeArray(src, null == attrName ? data : data instanceof Map ? data.get(attrName) : data[attrName], (JSONArray) template.get('inner'), version)
+                    return writeArray(src, null == attrName ? data : data instanceof Map ? data.get(attrName) : data[attrName], (JSONArray) template.get('inner'), version)
                 } else {
-                    return serializeObject(src, data instanceof Map ? data.get(attrName) : data[attrName], (JSONObject) template.get('inner'), version)
+                    return writeObject(src, data instanceof Map ? data.get(attrName) : data[attrName], (JSONObject) template.get('inner'), version)
                 }
             case DataType.List1:
                 return IOUtil.writeC(src, value.size() as byte) + writeList(src, value as List, template, version)
@@ -104,7 +104,7 @@ public class Serializer {
     private int writeList(OutputStream src, List list, JSONObject template, int version) {
         int writedBytesCount = 0
         for (item in list) {
-            writedBytesCount += serializeObject(src, item, (JSONObject) template.get('inner'), version)
+            writedBytesCount += writeObject(src, item, (JSONObject) template.get('inner'), version)
         }
         writedBytesCount
     }
@@ -162,16 +162,16 @@ public class Serializer {
         false
     }
 
-    public int deserializeArray(InputStream src, Object data, JSONArray template, Integer version) {
+    public int readArray(InputStream src, Object data, JSONArray template, Integer version) {
         int readedBytesCount = 0
         for (int elemNum = 0; elemNum < template.length(); elemNum++) {
-            readedBytesCount += deserializeObject(src, data, template.get(elemNum) as JSONObject, version)
+            readedBytesCount += readObject(src, data, template.get(elemNum) as JSONObject, version)
         }
         readedBytesCount
     }
 
     @SuppressWarnings("GroovyAccessibility")
-    public int deserializeObject(InputStream src, Object data, JSONObject template, Integer version) {
+    public int readObject(InputStream src, Object data, JSONObject template, Integer version) {
         if (!checkVersion(version, getAttr(template, Attribute.Version))) {
             return 0
         }
@@ -275,7 +275,7 @@ public class Serializer {
                 } else {
                     data[attrName] = o
                 }
-                return deserializeArray(src, o, template.get("inner") as JSONArray, version)
+                return readArray(src, o, template.get("inner") as JSONArray, version)
             case DataType.List1:
                 return 1 + readList(IOUtil.readC(src), attrName, src, data, template, version)
             case DataType.List2:
@@ -297,7 +297,7 @@ public class Serializer {
             data[attrName] = list
         }
         while (count-- > 0) {
-            readedBytesCount += deserializeObject(src, list, template.get('inner') as JSONObject, version)
+            readedBytesCount += readObject(src, list, template.get('inner') as JSONObject, version)
         }
         readedBytesCount
     }

@@ -1,13 +1,11 @@
 package com.l2jwalker.packet.io.serialize
 
 import com.l2jwalker.packet.io.AbstractIOTest
-import com.l2jwalker.packet.io.Serializer
+import com.l2jwalker.packet.io.PacketIO
 import com.l2jwalker.packet.io.TestObject1
 import com.l2jwalker.packet.io.TestObject2
 import com.l2jwalker.util.Util
 import com.l2jwalker.util.io.IOUtil
-import org.apache.commons.io.IOUtils
-import org.json.JSONArray
 import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -18,7 +16,7 @@ import static org.junit.Assert.assertEquals
 @RunWith(MockitoJUnitRunner.class)
 class ObjectSerializeTest extends AbstractIOTest {
 
-    Serializer serializer
+    PacketIO serializer
     ByteArrayOutputStream out
 
     TestObject1 testObject1
@@ -27,7 +25,7 @@ class ObjectSerializeTest extends AbstractIOTest {
 
     @Before
     public void before() {
-        serializer = new Serializer()
+        serializer = new PacketIO()
         out = new ByteArrayOutputStream()
         testObject1 = new TestObject1(
                 byteTest1: randomByte(),
@@ -54,7 +52,7 @@ class ObjectSerializeTest extends AbstractIOTest {
 
         assertEquals(
                 58 + 2 * (testObject1.getStringTest().length() + testObject1.getTestObject2().getStr1().length()),
-                serializer.serializeArray(out, data, getTemplate("../complex/object.js"), 1))
+                serializer.writeArray(out, data, getTemplate("../complex/object.js"), 1))
 
         byte[] result = out.toByteArray()
         log.info(Util.byteArrayToHexString(out.toByteArray()))

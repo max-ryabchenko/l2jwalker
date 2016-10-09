@@ -1,12 +1,10 @@
 package com.l2jwalker.packet.io.serialize
 
 import com.l2jwalker.packet.io.AbstractIOTest
-import com.l2jwalker.packet.io.Serializer
+import com.l2jwalker.packet.io.PacketIO
 import com.l2jwalker.packet.io.TestObject2
 import com.l2jwalker.util.Util
 import com.l2jwalker.util.io.IOUtil
-import org.apache.commons.io.IOUtils
-import org.json.JSONArray
 import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -17,7 +15,7 @@ import static org.junit.Assert.assertEquals
 @RunWith(MockitoJUnitRunner.class)
 class ListSerializeTest extends AbstractIOTest {
 
-    Serializer serializer
+    PacketIO serializer
     ByteArrayOutputStream out
 
     List testObject2list
@@ -25,7 +23,7 @@ class ListSerializeTest extends AbstractIOTest {
 
     @Before
     public void before() {
-        serializer = new Serializer()
+        serializer = new PacketIO()
         out = new ByteArrayOutputStream()
         testObject2list = []
         for (int i = 5 + random.nextInt(10); i > 0; i--) {
@@ -41,7 +39,7 @@ class ListSerializeTest extends AbstractIOTest {
     @Test
     public void test1() {
 
-        assertEquals(1 + len, serializer.serializeArray(out, [list: testObject2list], getTemplate("../repeat/list1.js"), 1))
+        assertEquals(1 + len, serializer.writeArray(out, [list: testObject2list], getTemplate("../repeat/list1.js"), 1))
 
         byte[] result = out.toByteArray()
         log.info(Util.byteArrayToHexString(out.toByteArray()))
@@ -62,7 +60,7 @@ class ListSerializeTest extends AbstractIOTest {
     @Test
     public void test2() {
 
-        assertEquals(2 + len, serializer.serializeArray(out, [list: testObject2list], getTemplate("../repeat/list2.js"), 1))
+        assertEquals(2 + len, serializer.writeArray(out, [list: testObject2list], getTemplate("../repeat/list2.js"), 1))
 
         byte[] result = out.toByteArray()
         log.info(Util.byteArrayToHexString(out.toByteArray()))
@@ -84,7 +82,7 @@ class ListSerializeTest extends AbstractIOTest {
     @Test
     public void test4() {
 
-        assertEquals(4 + len, serializer.serializeArray(out, [list: testObject2list], getTemplate("../repeat/list4.js"), 1))
+        assertEquals(4 + len, serializer.writeArray(out, [list: testObject2list], getTemplate("../repeat/list4.js"), 1))
 
         byte[] result = out.toByteArray()
         log.info(Util.byteArrayToHexString(out.toByteArray()))
@@ -106,7 +104,7 @@ class ListSerializeTest extends AbstractIOTest {
     @Test
     public void test8() {
 
-        assertEquals(8 + len, serializer.serializeArray(out, [list: testObject2list], getTemplate("../repeat/list8.js"), 1))
+        assertEquals(8 + len, serializer.writeArray(out, [list: testObject2list], getTemplate("../repeat/list8.js"), 1))
 
         byte[] result = out.toByteArray()
         log.info(Util.byteArrayToHexString(out.toByteArray()))

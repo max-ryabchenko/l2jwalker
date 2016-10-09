@@ -1,11 +1,9 @@
 package com.l2jwalker.packet.io.serialize;
 
 import com.l2jwalker.packet.io.AbstractIOTest;
-import com.l2jwalker.packet.io.Serializer;
+import com.l2jwalker.packet.io.PacketIO;
 import com.l2jwalker.util.Util;
 import com.l2jwalker.util.io.IOUtil;
-import org.apache.commons.io.IOUtils;
-import org.json.JSONArray;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -23,13 +21,13 @@ import static org.junit.Assert.assertEquals;
 @RunWith(MockitoJUnitRunner.class)
 public class CombinedPrimitiveSerializeTest extends AbstractIOTest {
 
-    Serializer serializer;
+    PacketIO packetIO;
     ByteArrayOutputStream out;
     Map<String, Object> data;
 
     @Before
     public void before() {
-        serializer = new Serializer();
+        packetIO = new PacketIO();
         out = new ByteArrayOutputStream();
         data = new HashMap<String, Object>() {{
             put("testByte1", randomByte());
@@ -56,7 +54,7 @@ public class CombinedPrimitiveSerializeTest extends AbstractIOTest {
     @Test
     public void test1() throws IOException {
 
-        assertEquals(25 + 2 * ((String) data.get("testString1")).length(), serializer.serializeArray(out, data, getTemplate("../combined-primitive/test1.js"), 1));
+        assertEquals(25 + 2 * ((String) data.get("testString1")).length(), packetIO.writeArray(out, data, getTemplate("../combined-primitive/test1.js"), 1));
 
         InputStream result = new ByteArrayInputStream(out.toByteArray());
         log.info(Util.byteArrayToHexString(out.toByteArray()));
@@ -74,7 +72,7 @@ public class CombinedPrimitiveSerializeTest extends AbstractIOTest {
 
         assertEquals(
                 75 + 2 * (((String) data.get("testString1")).length() + ((String) data.get("testString2")).length() + ((String) data.get("testString3")).length()),
-                serializer.serializeArray(out, data, getTemplate("../combined-primitive/test2.js"), 1));
+                packetIO.writeArray(out, data, getTemplate("../combined-primitive/test2.js"), 1));
 
         InputStream result = new ByteArrayInputStream(out.toByteArray());
         log.info(Util.byteArrayToHexString(out.toByteArray()));
