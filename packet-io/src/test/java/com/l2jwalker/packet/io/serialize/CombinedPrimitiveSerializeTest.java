@@ -54,7 +54,7 @@ public class CombinedPrimitiveSerializeTest extends AbstractIOTest {
     @Test
     public void test1() throws IOException {
 
-        assertEquals(25 + 2 * ((String) data.get("testString1")).length(), packetIO.writeArray(out, data, getTemplate("../combined-primitive/test1.js"), 1));
+        assertEquals(25 + 2 * ((String) data.get("testString1")).length(), packetIO.writeArray(out, data, getTemplate("../combined-primitive/test1.json"), 1));
 
         InputStream result = new ByteArrayInputStream(out.toByteArray());
         log.info(Util.byteArrayToHexString(out.toByteArray()));
@@ -72,7 +72,7 @@ public class CombinedPrimitiveSerializeTest extends AbstractIOTest {
 
         assertEquals(
                 75 + 2 * (((String) data.get("testString1")).length() + ((String) data.get("testString2")).length() + ((String) data.get("testString3")).length()),
-                packetIO.writeArray(out, data, getTemplate("../combined-primitive/test2.js"), 1));
+                packetIO.writeArray(out, data, getTemplate("../combined-primitive/test2.json"), 1));
 
         InputStream result = new ByteArrayInputStream(out.toByteArray());
         log.info(Util.byteArrayToHexString(out.toByteArray()));

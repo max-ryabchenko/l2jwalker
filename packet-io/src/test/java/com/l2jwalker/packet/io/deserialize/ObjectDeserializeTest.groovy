@@ -69,7 +69,7 @@ class ObjectDeserializeTest extends AbstractIOTest {
 
         Map data = [:]
 
-        assertEquals(offset, serializer.readArray(new ByteArrayInputStream(result), data, getTemplate("../complex/object.js"), 1))
+        assertEquals(offset, serializer.readArray(new ByteArrayInputStream(result), data, getTemplate("../complex/object.json"), 1))
 
         log.info(data)
 

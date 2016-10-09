@@ -43,7 +43,7 @@ class ListDeserializeTest extends AbstractIOTest {
         }
         byte[] result = out.toByteArray()
 
-        assertEquals(offset, serializer.readArray(new ByteArrayInputStream(result), data, getTemplate('../repeat/list1.js'), 1))
+        assertEquals(offset, serializer.readArray(new ByteArrayInputStream(result), data, getTemplate('../repeat/list1.json'), 1))
         assertEquals(['list': list], data)
     }
 
@@ -58,7 +58,7 @@ class ListDeserializeTest extends AbstractIOTest {
         }
         byte[] result = out.toByteArray()
 
-        assertEquals(offset, serializer.readArray(new ByteArrayInputStream(result), data, getTemplate('../repeat/list2.js'), 1))
+        assertEquals(offset, serializer.readArray(new ByteArrayInputStream(result), data, getTemplate('../repeat/list2.json'), 1))
         assertEquals(['list': list], data)
     }
 
@@ -73,7 +73,7 @@ class ListDeserializeTest extends AbstractIOTest {
         }
         byte[] result = out.toByteArray()
 
-        assertEquals(offset, serializer.readArray(new ByteArrayInputStream(result), data, getTemplate('../repeat/list4.js'), 1))
+        assertEquals(offset, serializer.readArray(new ByteArrayInputStream(result), data, getTemplate('../repeat/list4.json'), 1))
         assertEquals(['list': list], data)
     }
 
@@ -88,7 +88,7 @@ class ListDeserializeTest extends AbstractIOTest {
         }
         byte[] result = out.toByteArray()
 
-        assertEquals(offset, serializer.readArray(new ByteArrayInputStream(result), data, getTemplate('../repeat/list8.js'), 1))
+        assertEquals(offset, serializer.readArray(new ByteArrayInputStream(result), data, getTemplate('../repeat/list8.json'), 1))
         assertEquals(['list': list], data)
     }
 

@@ -54,7 +54,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
 
     @Test
     public void testByte() throws IOException {
-        assertEquals(1, packetIO.writeArray(out, data, getTemplate("../primitive/byte.js"), 1));
+        assertEquals(1, packetIO.writeArray(out, data, getTemplate("../primitive/byte.json"), 1));
 
         byte[] result = out.toByteArray();
         log.info(Util.byteArrayToHexString(out.toByteArray()));
@@ -66,7 +66,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     public void testByteNull() throws IOException {
         singleMap.put("testByte", null);
 
-        assertEquals(1, packetIO.writeArray(out, singleMap, getTemplate("../primitive/byte.js"), 1));
+        assertEquals(1, packetIO.writeArray(out, singleMap, getTemplate("../primitive/byte.json"), 1));
 
         byte[] result = out.toByteArray();
         log.info(Util.byteArrayToHexString(out.toByteArray()));
@@ -77,7 +77,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     @Test
     public void testByteMiss() throws IOException {
 
-        assertEquals(1, packetIO.writeArray(out, singleMap, getTemplate("../primitive/byte.js"), 1));
+        assertEquals(1, packetIO.writeArray(out, singleMap, getTemplate("../primitive/byte.json"), 1));
 
         byte[] result = out.toByteArray();
         log.info(Util.byteArrayToHexString(out.toByteArray()));
@@ -88,7 +88,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     @Test
     public void testShort() throws IOException {
 
-        assertEquals(2, packetIO.writeArray(out, data, getTemplate("../primitive/short.js"), 1));
+        assertEquals(2, packetIO.writeArray(out, data, getTemplate("../primitive/short.json"), 1));
 
         byte[] result = out.toByteArray();
         log.info(Util.byteArrayToHexString(out.toByteArray()));
@@ -100,7 +100,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     public void testShortNull() throws IOException {
         singleMap.put("testShort", null);
 
-        assertEquals(2, packetIO.writeArray(out, singleMap, getTemplate("../primitive/short.js"), 1));
+        assertEquals(2, packetIO.writeArray(out, singleMap, getTemplate("../primitive/short.json"), 1));
 
         byte[] result = out.toByteArray();
         log.info(Util.byteArrayToHexString(out.toByteArray()));
@@ -111,7 +111,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     @Test
     public void testShortMiss() throws IOException {
 
-        assertEquals(2, packetIO.writeArray(out, singleMap, getTemplate("../primitive/short.js"), 1));
+        assertEquals(2, packetIO.writeArray(out, singleMap, getTemplate("../primitive/short.json"), 1));
 
         byte[] result = out.toByteArray();
         log.info(Util.byteArrayToHexString(out.toByteArray()));
@@ -122,7 +122,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     @Test
     public void testInt() throws IOException {
 
-        assertEquals(4, packetIO.writeArray(out, data, getTemplate("../primitive/int.js"), 1));
+        assertEquals(4, packetIO.writeArray(out, data, getTemplate("../primitive/int.json"), 1));
 
         byte[] result = out.toByteArray();
         log.info(Util.byteArrayToHexString(out.toByteArray()));
@@ -134,7 +134,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     public void testIntNull() throws IOException {
         singleMap.put("testInt", null);
 
-        assertEquals(4, packetIO.writeArray(out, singleMap, getTemplate("../primitive/int.js"), 1));
+        assertEquals(4, packetIO.writeArray(out, singleMap, getTemplate("../primitive/int.json"), 1));
 
         byte[] result = out.toByteArray();
         log.info(Util.byteArrayToHexString(out.toByteArray()));
@@ -145,7 +145,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     @Test
     public void testIntMiss() throws IOException {
 
-        assertEquals(4, packetIO.writeArray(out, singleMap, getTemplate("../primitive/int.js"), 1));
+        assertEquals(4, packetIO.writeArray(out, singleMap, getTemplate("../primitive/int.json"), 1));
 
         byte[] result = out.toByteArray();
         log.info(Util.byteArrayToHexString(out.toByteArray()));
@@ -156,7 +156,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     @Test
     public void testLong() throws IOException {
 
-        assertEquals(8, packetIO.writeArray(out, data, getTemplate("../primitive/long.js"), 1));
+        assertEquals(8, packetIO.writeArray(out, data, getTemplate("../primitive/long.json"), 1));
 
         byte[] result = out.toByteArray();
         log.info(Util.byteArrayToHexString(out.toByteArray()));
@@ -168,7 +168,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     public void testLongNull() throws IOException {
         singleMap.put("testLong", null);
 
-        assertEquals(8, packetIO.writeArray(out, singleMap, getTemplate("../primitive/long.js"), 1));
+        assertEquals(8, packetIO.writeArray(out, singleMap, getTemplate("../primitive/long.json"), 1));
 
         byte[] result = out.toByteArray();
         log.info(Util.byteArrayToHexString(out.toByteArray()));
@@ -179,7 +179,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     @Test
     public void testLongMiss() throws IOException {
 
-        assertEquals(8, packetIO.writeArray(out, singleMap, getTemplate("../primitive/long.js"), 1));
+        assertEquals(8, packetIO.writeArray(out, singleMap, getTemplate("../primitive/long.json"), 1));
 
         byte[] result = out.toByteArray();
         log.info(Util.byteArrayToHexString(out.toByteArray()));
@@ -190,7 +190,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     @Test
     public void testUnicodeString() throws IOException {
 
-        assertEquals(2 + 2 * testUnicodeString.length(), packetIO.writeArray(out, data, getTemplate("../primitive/unicode-string.js"), 1));
+        assertEquals(2 + 2 * testUnicodeString.length(), packetIO.writeArray(out, data, getTemplate("../primitive/unicode-string.json"), 1));
 
         byte[] result = out.toByteArray();
         log.info(Util.byteArrayToHexString(out.toByteArray()));
@@ -201,7 +201,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     @Test
     public void testDouble() throws IOException {
 
-        assertEquals(8, packetIO.writeArray(out, data, getTemplate("../primitive/double.js"), 1));
+        assertEquals(8, packetIO.writeArray(out, data, getTemplate("../primitive/double.json"), 1));
 
         byte[] result = out.toByteArray();
         log.info(Util.byteArrayToHexString(out.toByteArray()));
@@ -213,7 +213,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     public void testDoubleNull() throws IOException {
         singleMap.put("testDouble", null);
 
-        assertEquals(8, packetIO.writeArray(out, singleMap, getTemplate("../primitive/double.js"), 1));
+        assertEquals(8, packetIO.writeArray(out, singleMap, getTemplate("../primitive/double.json"), 1));
 
         byte[] result = out.toByteArray();
         log.info(Util.byteArrayToHexString(out.toByteArray()));
@@ -224,7 +224,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     @Test
     public void testDoubleMiss() throws IOException {
 
-        assertEquals(8, packetIO.writeArray(out, singleMap, getTemplate("../primitive/double.js"), 1));
+        assertEquals(8, packetIO.writeArray(out, singleMap, getTemplate("../primitive/double.json"), 1));
 
         byte[] result = out.toByteArray();
         log.info(Util.byteArrayToHexString(out.toByteArray()));
@@ -236,7 +236,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     public void testBool1True() throws IOException {
         singleMap.put("testBool", true);
 
-        assertEquals(1, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool1.js"), 1));
+        assertEquals(1, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool1.json"), 1));
 
         byte[] result = out.toByteArray();
         assertEquals(1, result.length);
@@ -248,7 +248,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     public void testBool1False() throws IOException {
         singleMap.put("testBool", false);
 
-        assertEquals(1, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool1.js"), 1));
+        assertEquals(1, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool1.json"), 1));
 
         byte[] result = out.toByteArray();
         assertEquals(1, result.length);
@@ -259,7 +259,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     @Test
     public void testBool1Miss() throws IOException {
 
-        assertEquals(1, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool1.js"), 1));
+        assertEquals(1, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool1.json"), 1));
 
         byte[] result = out.toByteArray();
         assertEquals(1, result.length);
@@ -271,7 +271,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     public void testBool1Null() throws IOException {
         singleMap.put("testBool", null);
 
-        assertEquals(1, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool1.js"), 1));
+        assertEquals(1, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool1.json"), 1));
 
         byte[] result = out.toByteArray();
         assertEquals(1, result.length);
@@ -283,7 +283,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     public void testBool2True() throws IOException {
         singleMap.put("testBool", true);
 
-        assertEquals(2, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool2.js"), 1));
+        assertEquals(2, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool2.json"), 1));
 
         byte[] result = out.toByteArray();
         assertEquals(2, result.length);
@@ -295,7 +295,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     public void testBool2False() throws IOException {
         singleMap.put("testBool", false);
 
-        assertEquals(2, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool2.js"), 1));
+        assertEquals(2, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool2.json"), 1));
 
         byte[] result = out.toByteArray();
         assertEquals(2, result.length);
@@ -306,7 +306,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     @Test
     public void testBool2Miss() throws IOException {
 
-        assertEquals(2, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool2.js"), 1));
+        assertEquals(2, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool2.json"), 1));
 
         byte[] result = out.toByteArray();
         assertEquals(2, result.length);
@@ -318,7 +318,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     public void testBool2Null() throws IOException {
         singleMap.put("testBool", null);
 
-        assertEquals(2, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool2.js"), 1));
+        assertEquals(2, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool2.json"), 1));
 
         byte[] result = out.toByteArray();
         assertEquals(2, result.length);
@@ -330,7 +330,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     public void testBool4True() throws IOException {
         singleMap.put("testBool", true);
 
-        assertEquals(4, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool4.js"), 1));
+        assertEquals(4, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool4.json"), 1));
 
         byte[] result = out.toByteArray();
         assertEquals(4, result.length);
@@ -342,7 +342,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     public void testBool4False() throws IOException {
         singleMap.put("testBool", false);
 
-        assertEquals(4, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool4.js"), 1));
+        assertEquals(4, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool4.json"), 1));
 
         byte[] result = out.toByteArray();
         assertEquals(4, result.length);
@@ -353,7 +353,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     @Test
     public void testBool4Miss() throws IOException {
 
-        assertEquals(4, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool4.js"), 1));
+        assertEquals(4, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool4.json"), 1));
 
         byte[] result = out.toByteArray();
         assertEquals(4, result.length);
@@ -365,7 +365,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     public void testBool4Null() throws IOException {
         singleMap.put("testBool", null);
 
-        assertEquals(4, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool4.js"), 1));
+        assertEquals(4, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool4.json"), 1));
 
         byte[] result = out.toByteArray();
         assertEquals(4, result.length);
@@ -377,7 +377,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     public void testBool8True() throws IOException {
         singleMap.put("testBool", true);
 
-        assertEquals(8, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool8.js"), 1));
+        assertEquals(8, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool8.json"), 1));
 
         byte[] result = out.toByteArray();
         assertEquals(8, result.length);
@@ -389,7 +389,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     public void testBool8False() throws IOException {
         singleMap.put("testBool", false);
 
-        assertEquals(8, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool8.js"), 1));
+        assertEquals(8, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool8.json"), 1));
 
         byte[] result = out.toByteArray();
         assertEquals(8, result.length);
@@ -400,7 +400,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     @Test
     public void testBool8Miss() throws IOException {
 
-        assertEquals(8, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool8.js"), 1));
+        assertEquals(8, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool8.json"), 1));
 
         byte[] result = out.toByteArray();
         assertEquals(8, result.length);
@@ -412,7 +412,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
     public void testBool8Null() throws IOException {
         singleMap.put("testBool", null);
 
-        assertEquals(8, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool8.js"), 1));
+        assertEquals(8, packetIO.writeArray(out, singleMap, getTemplate("../primitive/bool8.json"), 1));
 
         byte[] result = out.toByteArray();
         assertEquals(8, result.length);
@@ -425,7 +425,7 @@ public class PrimitiveSerializeTest extends AbstractIOTest {
         byte[] array = randomBytes(17);
         singleMap.put("testByteArray", array);
 
-        assertEquals(17, packetIO.writeArray(out, singleMap, getTemplate("../primitive/byte-array.js"),1));
+        assertEquals(17, packetIO.writeArray(out, singleMap, getTemplate("../primitive/byte-array.json"),1));
         assertArrayEquals(array, out.toByteArray());
     }
 

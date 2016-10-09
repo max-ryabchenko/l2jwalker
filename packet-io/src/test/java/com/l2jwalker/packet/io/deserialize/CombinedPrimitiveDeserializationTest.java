@@ -67,7 +67,7 @@ public class CombinedPrimitiveDeserializationTest extends AbstractIOTest {
 
         src = new ByteArrayInputStream(out.toByteArray());
         Map<String, Object> result = new HashMap<String, Object>();
-        assertEquals(offset, packetIO.readArray(src, result, getTemplate("../combined-primitive/test1.js"), 1));
+        assertEquals(offset, packetIO.readArray(src, result, getTemplate("../combined-primitive/test1.json"), 1));
 
         assertEquals(data.get("testByte1"), result.get("testByte1"));
         assertEquals(data.get("testShort1"), result.get("testShort1"));
@@ -106,7 +106,7 @@ public class CombinedPrimitiveDeserializationTest extends AbstractIOTest {
 
         src = new ByteArrayInputStream(out.toByteArray());
         Map<String, Object> result = new HashMap<String, Object>();
-        assertEquals(offset, packetIO.readArray(src, result, getTemplate("../combined-primitive/test2.js"), 1));
+        assertEquals(offset, packetIO.readArray(src, result, getTemplate("../combined-primitive/test2.json"), 1));
 
         assertEquals(data.get("testByte1"), result.get("testByte1"));
         assertEquals(data.get("testByte2"), result.get("testByte2"));

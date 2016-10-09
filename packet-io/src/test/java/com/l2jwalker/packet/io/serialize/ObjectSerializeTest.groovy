@@ -52,7 +52,7 @@ class ObjectSerializeTest extends AbstractIOTest {
 
         assertEquals(
                 58 + 2 * (testObject1.getStringTest().length() + testObject1.getTestObject2().getStr1().length()),
-                serializer.writeArray(out, data, getTemplate("../complex/object.js"), 1))
+                serializer.writeArray(out, data, getTemplate("../complex/object.json"), 1))
 
         byte[] result = out.toByteArray()
         log.info(Util.byteArrayToHexString(out.toByteArray()))
