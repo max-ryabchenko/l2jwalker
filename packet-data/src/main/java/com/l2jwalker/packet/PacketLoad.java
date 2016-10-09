@@ -22,7 +22,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class PacketFill implements CustomTaskChange {
+public class PacketLoad implements CustomTaskChange {
 
     private final static String PACKET_FILE_NAME_SUFFIX = ".json";
 
@@ -30,23 +30,22 @@ public class PacketFill implements CustomTaskChange {
 
     private String path;
     private String insertSql;
-    private final JSONParser jsonParser;
+    private JSONParser jsonParser;
     private Set<JSONObject> packetsJson;
     private boolean okResourceParse = false;
 
-    public PacketFill() {
-        jsonParser = new JSONParser();
-        packetsJson = new HashSet<JSONObject>();
-    }
-
+    @Override
     public String getConfirmationMessage() {
         return "Packets successfully added to schema.";
     }
 
+    @Override
     public void setUp() throws SetupException {
-
+        jsonParser = new JSONParser();
+        packetsJson = new HashSet<JSONObject>();
     }
 
+    @Override
     public void setFileOpener(ResourceAccessor resourceAccessor) {
         okResourceParse = true;
         try {
@@ -67,10 +66,12 @@ public class PacketFill implements CustomTaskChange {
         }
     }
 
+    @Override
     public ValidationErrors validate(Database var1) {
         return null;
     }
 
+    @Override
     public void execute(Database database) throws CustomChangeException {
         if (!okResourceParse) {
             log.error("Resources do not parsed!");
