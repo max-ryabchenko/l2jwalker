@@ -15,6 +15,7 @@
         <module>packet-data</module>
         <module>packet-io</module>
         <module>utility</module>
+        <module>server-connection-manager</module>
     </modules>
 
     <dependencies>
