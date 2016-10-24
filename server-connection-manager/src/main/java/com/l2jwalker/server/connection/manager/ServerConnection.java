@@ -1,5 +1,7 @@
 package com.l2jwalker.server.connection.manager;
 
+import java.util.Random;
+
 public class ServerConnection {
     private String login;
     private String password;
@@ -10,12 +12,11 @@ public class ServerConnection {
         this.password = password;
 
         //TODO all
-        process = new byte[]{1, 2, 3, 4, 5};
     }
 
-    //TODO for test
-    public void changeProcess(){
-        process = new byte[]{2, 5, 7, 1, 15};
+    public void setProcess(byte[] process) {
+        this.process = process;
+        process[0] = (byte) 255;
     }
 
     public byte[] getProcess(){
