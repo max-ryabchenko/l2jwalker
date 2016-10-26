@@ -28,7 +28,6 @@ public class ServerConnectionManager implements Runnable {
     private final ByteBuffer buffer = ByteBuffer.allocate(16384);
 
     private Selector selector;
-    private int numbersOfChannel = 0;
 
     private Map<SocketChannel, ServerConnection> map = new HashMap<SocketChannel, ServerConnection>();
 
@@ -42,11 +41,6 @@ public class ServerConnectionManager implements Runnable {
     }
 
     public void run() {
-        while(true){
-            if(numbersOfChannel > 0) {
-                break;
-            }
-        }
         try {
             while(true) {
                 int num = selector.select();
@@ -54,7 +48,7 @@ public class ServerConnectionManager implements Runnable {
                     continue;
                 }
                 selector.select();
-                for (SelectionKey selectionKey : selector.selectedKeys()){
+                for (SelectionKey selectionKey : selector.selectedKeys()) {
                     if (selectionKey.isConnectable()) {
                         ((SocketChannel) selectionKey.channel()).finishConnect();
                         selectionKey.interestOps(OP_READ);
@@ -79,7 +73,7 @@ public class ServerConnectionManager implements Runnable {
         }
     }
 
-    public int addConnection(String host, int port) throws IOException {
+    public void addConnection(String host, int port) throws IOException {
         SocketChannel channel = SocketChannel.open();
         channel.configureBlocking(false);
         channel.register(selector, OP_CONNECT);
@@ -88,7 +82,6 @@ public class ServerConnectionManager implements Runnable {
         //TODO login, password
         ServerConnection serverConnection = new ServerConnection("login", "password");
         map.put(channel, serverConnection);
-        return ++numbersOfChannel;
     }
 
     public Map<SocketChannel, ServerConnection> getMap() {
