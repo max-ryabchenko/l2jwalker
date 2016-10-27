@@ -5,7 +5,7 @@ public class FinalContainer<T> {
     private T inner;
 
     public FinalContainer(T init){
-        this.set(init);
+        set(init);
     }
 
     public T get() {
